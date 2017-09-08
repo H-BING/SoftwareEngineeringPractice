@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  unittest1.cpp
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+SudokuPlayer.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
+    正在创建库 C:\Users\Dell\Documents\github\SoftwareEngineeringPractice\sudoku\Debug\Test.lib 和对象 C:\Users\Dell\Documents\github\SoftwareEngineeringPractice\sudoku\Debug\Test.exp
+  Test.vcxproj -> C:\Users\Dell\Documents\github\SoftwareEngineeringPractice\sudoku\Debug\Test.dll
+  Test.vcxproj -> C:\Users\Dell\Documents\github\SoftwareEngineeringPractice\sudoku\Debug\Test.pdb (Partial PDB)
