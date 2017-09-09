@@ -141,7 +141,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Constant.h" />
     <ClInclude Include="SudokuBuilder.h" />
+    <ClInclude Include="SudokuGenerator.h" />
     <ClInclude Include="SudokuJudger.h" />
     <ClInclude Include="SudokuPlayer.h" />
     <ClInclude Include="SudokuPrinter.h" />
@@ -149,6 +151,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SudokuBuilder.cpp" />
+    <ClCompile Include="SudokuGenerator.cpp" />
     <ClCompile Include="SudokuJudger.cpp" />
     <ClCompile Include="SudokuPlayer.cpp" />
     <ClCompile Include="SudokuPrinter.cpp" />

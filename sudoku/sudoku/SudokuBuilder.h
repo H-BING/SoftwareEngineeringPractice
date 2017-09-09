@@ -1,6 +1,6 @@
 #pragma once
-#define LENGTH 9
-#define INITDATA -1
+#include "Constant.h"
+#include "SudokuJudger.h"
 
 class SudokuBuilder {
 public:

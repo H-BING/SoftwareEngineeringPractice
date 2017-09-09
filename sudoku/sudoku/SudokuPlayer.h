@@ -1,11 +1,11 @@
 #pragma once
-
-
-#define LENGTH 9
+#include "Constant.h"
 
 class SudokuPlayer {
 public:
 	void playSudoku(int n);
+
+	void enjoySudoku(int n);
 private:
 
 };

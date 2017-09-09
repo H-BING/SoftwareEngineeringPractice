@@ -26,9 +26,15 @@ bool isInteger(string str) {
 	return true;
 }
 
+void enjoySudoku(int n) {
+	SudokuPlayer sudokuPlayer;
+	sudokuPlayer.enjoySudoku(n);
+}
+
 /**
 int main() {
-	playSudoku(1);
+	enjoySudoku(1);
+	//playSudoku(1);
 	return 0;
 }
 **/
@@ -38,11 +44,10 @@ int main(int argc, char* argv[]) {
 
 	SudokuPrinter sudokuPrinter;
 
-	if (argc > 3) {
+	if (argc != 3) {
 		sudokuPrinter.errorPrint();
 		return 0;
 	}
-
 
 	bool correctInput = false;
 
@@ -57,7 +62,8 @@ int main(int argc, char* argv[]) {
 		if (correctInput) {
 			string figure = argv[++i];
 			if (isInteger(figure)) {
-				playSudoku(atoi(figure.c_str()));
+				enjoySudoku(atoi(figure.c_str()));
+				//playSudoku(atoi(figure.c_str()));
 			} else {
 				sudokuPrinter.errorPrint();
 			}

@@ -97,8 +97,8 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalDependencies>..\sudoku\Debug\SudokuPlayer.obj;..\sudoku\Debug\SudokuPrinter.obj;..\sudoku\Debug\SudokuBuilder.obj;..\sudoku\Debug\SudokuJudger.obj;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SudokuBuilder.obj;SudokuJudger.obj;SudokuPlayer.obj;SudokuPrinter.obj;SudokuGenerator.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Dell\Documents\github\SoftwareEngineeringPractice\sudoku\sudoku\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <Profile>true</Profile>
     </Link>
   </ItemDefinitionGroup>

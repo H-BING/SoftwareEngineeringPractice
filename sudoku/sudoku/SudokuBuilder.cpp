@@ -2,7 +2,6 @@
 #include<time.h>
 #include<iostream>
 #include "SudokuBuilder.h"
-#include "SudokuJudger.h"
 using namespace std;
 
 int* SudokuBuilder::randomArray(int row) {
@@ -40,6 +39,14 @@ void SudokuBuilder::generateSudoku(int(&sudoku)[LENGTH][LENGTH]) {
 		int* tempArray = randomArray(i);
 		bool succeed = false;
 		while (!succeed) {
+			/**
+			if (sudokuJuder.judgeTempRow(i, tempArray, sudoku)) {
+				succeed = true;
+			} else {
+				tempArray = randomArray(i);
+			}
+			**/
+
 			int column = sudokuJuder.judgeTempRow(i, tempArray, sudoku);
 
 			if (column == -1) {

@@ -60,7 +60,7 @@ void SudokuPrinter::printSudoku(int sudoku[LENGTH][LENGTH]) {
 /**/
 
 void SudokuPrinter::errorPrint() {
-	string path = "sudoku.txt";
+	string path = PATH;
 
 	ofstream output;
 	output.open(path.c_str(), ios::out);

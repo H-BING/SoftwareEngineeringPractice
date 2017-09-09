@@ -40,3 +40,27 @@ int SudokuJudger::judgeTempRow(int row, int column, int* tempArray, int sudoku[L
 	}
 	return -1;
 }
+
+bool SudokuJudger::checkRequirement(int x, int y, int value, int sudoku[LENGTH][LENGTH]) {
+	for (int i = 0; i < LENGTH; i++) {
+		if (sudoku[i][y] == value) {
+			return false;
+		}
+		if (sudoku[x][i] == value) {
+			return false;
+		}
+	}
+
+	int startX = x / 3 * 3;
+	int startY = y / 3 * 3;
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			if (sudoku[startX + i][startY + j] == INITDATA) continue;
+			else if (sudoku[startX + i][startY + j] == value) {
+				return false;
+			}
+		}
+	}
+
+	return true;
+}
