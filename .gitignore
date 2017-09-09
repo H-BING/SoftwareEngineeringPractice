@@ -1,8 +1,9 @@
 # sudoku
+/sudoku/Debug
 
-
-#
+# Visual Studio
 packages
 .vs
 .vsp
 .diagsession
+.psess

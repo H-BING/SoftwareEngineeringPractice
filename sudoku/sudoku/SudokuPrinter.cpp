@@ -60,13 +60,15 @@ void SudokuPrinter::printSudoku(int sudoku[LENGTH][LENGTH]) {
 /**/
 
 void SudokuPrinter::errorPrint() {
+	/**
 	string path = PATH;
 
 	ofstream output;
 	output.open(path.c_str(), ios::out);
 	output << "Illegal input!" << endl;
 	output.close();
+	**/
 
-	//printf("Illegal input!\n");
+	printf("Illegal input!\n");
 }
 
