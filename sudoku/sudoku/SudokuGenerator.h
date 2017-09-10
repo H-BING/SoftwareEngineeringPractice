@@ -6,7 +6,7 @@
 class SudokuGenerator {
 public:
 
-	void dfs(int(&sudoku)[LENGTH][LENGTH], int count, int(&n));
+	void DepthFirstSearch(int(&sudoku)[LENGTH][LENGTH], int count, int(&n));
 
 	void initSudoku(int(&sudoku)[LENGTH][LENGTH]);
 

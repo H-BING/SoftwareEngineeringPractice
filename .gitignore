@@ -1,9 +1,11 @@
 # Visual Studio
 packages
 .vs
-.vsp
-.diagsession
-.psess
+*.vsp
+*.diagsession
+*.psess
 
 # sudoku
-/sudoku/Debug
+sudoku/Debug
+sudoku/Release
+# /sudoku/sudoku/sudoku.txt

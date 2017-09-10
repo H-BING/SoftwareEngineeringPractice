@@ -33,8 +33,12 @@ void enjoySudoku(int n) {
 
 /**
 int main() {
-	enjoySudoku(1000);
+	enjoySudoku(3);
 	//playSudoku(1);
+
+	// close file
+	freopen("CON", "w", stdout);
+
 	return 0;
 }
 **/
@@ -80,6 +84,9 @@ int main(int argc, char* argv[]) {
 			break;
 		}
 	}
+
+	// close file
+	freopen("CON", "w", stdout);
 
 	return 0;
 }

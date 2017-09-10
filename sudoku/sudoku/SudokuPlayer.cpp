@@ -34,7 +34,7 @@ void SudokuPlayer::enjoySudoku(int n) {
 
 	sudoku[0][0] = 3;
 
-	sudokuGenerator.dfs(sudoku, 0, n);
+	sudokuGenerator.DepthFirstSearch(sudoku, 0, n);
 
 }
 
