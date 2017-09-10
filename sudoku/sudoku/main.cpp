@@ -33,7 +33,7 @@ void enjoySudoku(int n) {
 
 /**
 int main() {
-	enjoySudoku(1);
+	enjoySudoku(1000);
 	//playSudoku(1);
 	return 0;
 }
@@ -44,31 +44,39 @@ int main(int argc, char* argv[]) {
 
 	SudokuPrinter sudokuPrinter;
 
-	if (argc != 3) {
-		sudokuPrinter.errorPrint();
+	if (argc == 1) {
+		sudokuPrinter.errorPrint(ERROR_INPUT_LACK_PARAM);
+		return 0;
+	} else if (argc > 3) {
+		sudokuPrinter.errorPrint(ERROR_INPUT_EXTRA);
 		return 0;
 	}
 
-	bool correctInput = false;
+	bool correctInputParam = false;
 
 	for (int i = 1; i < argc; i++) {
 
 		string input = argv[i];
 
 		if (input == "-c") {
-			correctInput = true;
+			correctInputParam = true;
 		}
 
-		if (correctInput) {
-			string figure = argv[++i];
-			if (isInteger(figure)) {
-				enjoySudoku(atoi(figure.c_str()));
-				//playSudoku(atoi(figure.c_str()));
+		if (correctInputParam) {
+			if (argc == 2) {
+				sudokuPrinter.errorPrint(ERROR_INPUT_LACK_NUMBER);
+				break;
 			} else {
-				sudokuPrinter.errorPrint();
+				string figure = argv[++i];
+				if (isInteger(figure)) {
+					enjoySudoku(atoi(figure.c_str()));
+					//playSudoku(atoi(figure.c_str()));
+				} else {
+					sudokuPrinter.errorPrint(ERROR_INPUT_ILLEGAL_NUMBER);
+				}
 			}
 		} else {
-			sudokuPrinter.errorPrint();
+			sudokuPrinter.errorPrint(ERROR_INPUT_ILLEAGL_PARAM);
 			break;
 		}
 	}

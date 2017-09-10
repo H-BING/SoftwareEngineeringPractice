@@ -6,7 +6,7 @@ public:
 
 	void printSudoku(int sudoku[LENGTH][LENGTH]);
 
-	void errorPrint();
+	void errorPrint(int error);
 
 private:
 };

@@ -11,7 +11,7 @@
 void SudokuPlayer::playSudoku(int n) {
 
 	srand((unsigned)time(NULL));
-	//freopen("sudoku.txt", "w", stdout);
+	freopen("sudoku.txt", "w", stdout);
 
 	SudokuBuilder sudokuBuilder;
 	SudokuPrinter sudokuPrinter;
