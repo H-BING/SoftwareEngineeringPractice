@@ -16,11 +16,18 @@ using namespace Json;    //jsonµÄÃüÃû¿Õ¼ä
 Student student[305];
 Department department[25];
 
+/*
+int main() {
+	freopen("./input.txt", "w", stdout);
+	createData inputData;
+	inputData.print();
+	return 0;
+}
+*/
+/*
+*/
 int main()
-{
-	
-
-	
+{	
 	JsonHandler jsonHandler;
 	std::string path = "./input_data.txt";
 	std::string input = jsonHandler.readInputTestFile(path.c_str());
@@ -28,7 +35,6 @@ int main()
 	Json::Reader reader;
 	Json::Value root;
 	freopen("./output_data.txt", "w", stdout);
-
 
 	if (reader.parse(input, root)) {
 		if (!root[Stu].isNull()) {
@@ -39,11 +45,9 @@ int main()
 		}
 	}
 	
-
 	MatchSolve ms;
 	ms.solve(student, department);
-	
-	
+		
 	FastWriter fastWriter;
 
 	Value valueRoot;
@@ -81,11 +85,8 @@ int main()
 
 	cout << valueRoot << endl;
 
-	
-	
 	return 0;
 }
-
 
 
 

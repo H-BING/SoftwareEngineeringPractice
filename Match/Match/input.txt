@@ -1,0 +1,4736 @@
+
+{
+	"departments" : 
+	[
+		
+		{
+			"department_no" : "D000",
+			"event_schedules" : [ "Wed.8: 00~10: 00", "Sat.18: 30~20: 30" ],
+			"member_limit" : 14,
+			"tags" : [ "PS", ".net", "Android", "SQL", "Linux" ]
+		},
+		
+		{
+			"department_no" : "D001",
+			"event_schedules" : 
+			[
+				"Tues.16: 00~18: 00",
+				"Thur.14: 00~16: 00",
+				"Wed.20: 30~22: 30",
+				"Thur.16: 00~18: 00"
+			],
+			"member_limit" : 14,
+			"tags" : [ ".net", "Android", "Web" ]
+		},
+		
+		{
+			"department_no" : "D002",
+			"event_schedules" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Sun.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Wed.8: 00~10: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"member_limit" : 13,
+			"tags" : [ "SQL", "Linux" ]
+		},
+		
+		{
+			"department_no" : "D003",
+			"event_schedules" : [ "Wed.16: 00~18: 00", "Wed.20: 30~22: 30", "Sun.14: 00~16: 00" ],
+			"member_limit" : 11,
+			"tags" : [ "soccer", "climbing", "pingpong", "swimming", "fishing" ]
+		},
+		
+		{
+			"department_no" : "D004",
+			"event_schedules" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Thur.8: 00~10: 00",
+				"Wed.16: 00~18: 00",
+				"Sat.16: 00~18: 00"
+			],
+			"member_limit" : 14,
+			"tags" : [ ".net", "SQL", "Web", "Java" ]
+		},
+		
+		{
+			"department_no" : "D005",
+			"event_schedules" : [ "Wed.8: 00~10: 00", "Sun.10: 00~12: 00" ],
+			"member_limit" : 10,
+			"tags" : [ ".net", "Android", "SQL", "iOS" ]
+		},
+		
+		{
+			"department_no" : "D006",
+			"event_schedules" : 
+			[
+				"Sat.18: 30~20: 30",
+				"Fri.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Sun.18: 30~20: 30"
+			],
+			"member_limit" : 13,
+			"tags" : [ "swimming", "climbing", "running" ]
+		},
+		
+		{
+			"department_no" : "D007",
+			"event_schedules" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Wed.10: 00~12: 00",
+				"Tues.20: 30~22: 30",
+				"Mon.16: 00~18: 00"
+			],
+			"member_limit" : 14,
+			"tags" : [ "climbing", "tennis", "basketball", "soccer", "running" ]
+		},
+		
+		{
+			"department_no" : "D008",
+			"event_schedules" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Thur.18: 30~20: 30",
+				"Sat.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Wed.10: 00~12: 00"
+			],
+			"member_limit" : 14,
+			"tags" : [ "Web", ".net", "PS" ]
+		},
+		
+		{
+			"department_no" : "D009",
+			"event_schedules" : 
+			[
+				"Sat.20: 30~22: 30",
+				"Wed.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Tues.18: 30~20: 30"
+			],
+			"member_limit" : 14,
+			"tags" : [ "singing", "reading", "collect" ]
+		},
+		
+		{
+			"department_no" : "D010",
+			"event_schedules" : 
+			[
+				"Mon.16: 00~18: 00",
+				"Thur.16: 00~18: 00",
+				"Mon.8: 00~10: 00",
+				"Mon.18: 30~20: 30",
+				"Mon.14: 00~16: 00"
+			],
+			"member_limit" : 14,
+			"tags" : [ "Java", "Web", "PS", "Linux" ]
+		},
+		
+		{
+			"department_no" : "D011",
+			"event_schedules" : 
+			[
+				"Fri.8: 00~10: 00",
+				"Sun.8: 00~10: 00",
+				"Mon.10: 00~12: 00",
+				"Mon.14: 00~16: 00",
+				"Sun.18: 30~20: 30"
+			],
+			"member_limit" : 12,
+			"tags" : [ "SQL", "PS", "Java", "Web", ".net", "iOS" ]
+		},
+		
+		{
+			"department_no" : "D012",
+			"event_schedules" : 
+			[
+				"Thur.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Sun.10: 00~12: 00",
+				"Fri.8: 00~10: 00"
+			],
+			"member_limit" : 12,
+			"tags" : [ "fishing", "basketball", "running", "climbing" ]
+		},
+		
+		{
+			"department_no" : "D013",
+			"event_schedules" : 
+			[
+				"Sat.16: 00~18: 00",
+				"Wed.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Sun.8: 00~10: 00",
+				"Wed.20: 30~22: 30"
+			],
+			"member_limit" : 11,
+			"tags" : [ "basketball", "swimming", "running", "climbing", "pingpong" ]
+		},
+		
+		{
+			"department_no" : "D014",
+			"event_schedules" : 
+			[
+				"Sun.8: 00~10: 00",
+				"Thur.20: 30~22: 30",
+				"Wed.20: 30~22: 30",
+				"Sat.18: 30~20: 30",
+				"Sat.8: 00~10: 00"
+			],
+			"member_limit" : 11,
+			"tags" : [ "running", "soccer" ]
+		},
+		
+		{
+			"department_no" : "D015",
+			"event_schedules" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Fri.18: 30~20: 30"
+			],
+			"member_limit" : 11,
+			"tags" : [ "climbing", "swimming", "fishing", "soccer" ]
+		},
+		
+		{
+			"department_no" : "D016",
+			"event_schedules" : 
+			[
+				"Wed.10: 00~12: 00",
+				"Wed.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Tues.8: 00~10: 00",
+				"Sun.20: 30~22: 30"
+			],
+			"member_limit" : 12,
+			"tags" : [ "running", "soccer", "fishing" ]
+		},
+		
+		{
+			"department_no" : "D017",
+			"event_schedules" : [ "Mon.8: 00~10: 00", "Thur.18: 30~20: 30", "Thur.14: 00~16: 00" ],
+			"member_limit" : 12,
+			"tags" : [ "Java", "iOS", "Web", ".net", "PS", "Linux" ]
+		},
+		
+		{
+			"department_no" : "D018",
+			"event_schedules" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Tues.8: 00~10: 00",
+				"Sat.8: 00~10: 00",
+				"Fri.10: 00~12: 00",
+				"Fri.18: 30~20: 30"
+			],
+			"member_limit" : 12,
+			"tags" : [ "running", "pingpong", "climbing", "tennis" ]
+		},
+		
+		{
+			"department_no" : "D019",
+			"event_schedules" : [ "Thur.10: 00~12: 00", "Tues.16: 00~18: 00" ],
+			"member_limit" : 11,
+			"tags" : [ "reading", "travel", "acting", "collect" ]
+		}
+	],
+	"students" : 
+	[
+		
+		{
+			"applications_department" : [ "D015", "D016", "D009" ],
+			"free_time" : 
+			[
+				"Sat.20: 30~22: 30",
+				"Sat.16: 00~18: 00",
+				"Sat.8: 00~10: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Tues.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Wed.20: 30~22: 30",
+				"Wed.16: 00~18: 00"
+			],
+			"student_no" : "031502000",
+			"tags" : [ "Java", "Android", "singing", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D011", "D013" ],
+			"free_time" : [ "Thur.10: 00~12: 00", "Fri.10: 00~12: 00", "Fri.14: 00~16: 00" ],
+			"student_no" : "031502001",
+			"tags" : [ "travel", ".net", "Linux", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D013", "D003" ],
+			"free_time" : 
+			[
+				"Thur.20: 30~22: 30",
+				"Sat.18: 30~20: 30",
+				"Sun.8: 00~10: 00",
+				"Sun.16: 00~18: 00"
+			],
+			"student_no" : "031502002",
+			"tags" : [ "dancing", "reading", "collect", "Web" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D007" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Tues.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Wed.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Tues.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Tues.20: 30~22: 30",
+				"Sat.16: 00~18: 00",
+				"Tues.10: 00~12: 00"
+			],
+			"student_no" : "031502003",
+			"tags" : [ "tennis", "movies", "Android", "Web", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D005" ],
+			"free_time" : 
+			[
+				"Mon.18: 30~20: 30",
+				"Wed.10: 00~12: 00",
+				"Tues.8: 00~10: 00",
+				"Fri.20: 30~22: 30",
+				"Thur.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Wed.20: 30~22: 30",
+				"Wed.18: 30~20: 30",
+				"Thur.20: 30~22: 30"
+			],
+			"student_no" : "031502004",
+			"tags" : [ "Web", "movies", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D013", "D007" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Sun.14: 00~16: 00",
+				"Wed.20: 30~22: 30",
+				"Wed.10: 00~12: 00",
+				"Fri.16: 00~18: 00",
+				"Sun.8: 00~10: 00"
+			],
+			"student_no" : "031502005",
+			"tags" : [ "swimming", "SQL", "iOS" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D017", "D009", "D007" ],
+			"free_time" : 
+			[
+				"Fri.14: 00~16: 00",
+				"Sun.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Sat.14: 00~16: 00",
+				"Tues.16: 00~18: 00",
+				"Mon.14: 00~16: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Wed.14: 00~16: 00",
+				"Sun.10: 00~12: 00"
+			],
+			"student_no" : "031502006",
+			"tags" : [ "dancing", "movies", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D007", "D009", "D003" ],
+			"free_time" : 
+			[
+				"Mon.16: 00~18: 00",
+				"Fri.16: 00~18: 00",
+				"Mon.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Sun.20: 30~22: 30"
+			],
+			"student_no" : "031502007",
+			"tags" : [ "collect", "fishing", "running", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D001" ],
+			"free_time" : 
+			[
+				"Mon.18: 30~20: 30",
+				"Tues.18: 30~20: 30",
+				"Thur.16: 00~18: 00",
+				"Tues.10: 00~12: 00",
+				"Tues.8: 00~10: 00"
+			],
+			"student_no" : "031502008",
+			"tags" : [ "Java", "Android", "acting", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D012", "D005" ],
+			"free_time" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Wed.14: 00~16: 00",
+				"Sun.16: 00~18: 00",
+				"Thur.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Fri.8: 00~10: 00"
+			],
+			"student_no" : "031502009",
+			"tags" : [ "painting", "Linux", "reading", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D001" ],
+			"free_time" : 
+			[
+				"Thur.18: 30~20: 30",
+				"Fri.14: 00~16: 00",
+				"Mon.8: 00~10: 00",
+				"Fri.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Fri.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Wed.16: 00~18: 00",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502010",
+			"tags" : [ "Java", "Linux", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D013", "D011", "D008" ],
+			"free_time" : 
+			[
+				"Sun.16: 00~18: 00",
+				"Mon.18: 30~20: 30",
+				"Mon.20: 30~22: 30",
+				"Sat.8: 00~10: 00",
+				"Wed.20: 30~22: 30",
+				"Wed.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Sat.16: 00~18: 00",
+				"Wed.14: 00~16: 00",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502011",
+			"tags" : [ "Java", "soccer", "climbing", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D017" ],
+			"free_time" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Fri.14: 00~16: 00",
+				"Tues.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Tues.10: 00~12: 00",
+				"Sat.8: 00~10: 00",
+				"Sun.10: 00~12: 00",
+				"Mon.14: 00~16: 00"
+			],
+			"student_no" : "031502012",
+			"tags" : [ "soccer", "painting", "singing", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D011", "D006" ],
+			"free_time" : 
+			[
+				"Wed.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Thur.10: 00~12: 00",
+				"Thur.8: 00~10: 00",
+				"Tues.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Mon.20: 30~22: 30"
+			],
+			"student_no" : "031502013",
+			"tags" : [ "collect", "pingpong", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D001", "D015", "D003" ],
+			"free_time" : 
+			[
+				"Tues.20: 30~22: 30",
+				"Fri.8: 00~10: 00",
+				"Tues.18: 30~20: 30",
+				"Fri.18: 30~20: 30",
+				"Fri.10: 00~12: 00",
+				"Mon.14: 00~16: 00",
+				"Sun.16: 00~18: 00",
+				"Wed.14: 00~16: 00"
+			],
+			"student_no" : "031502014",
+			"tags" : [ "fishing", "running", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D005", "D011", "D013" ],
+			"free_time" : 
+			[
+				"Mon.14: 00~16: 00",
+				"Wed.20: 30~22: 30",
+				"Sun.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Sat.14: 00~16: 00",
+				"Fri.20: 30~22: 30",
+				"Thur.10: 00~12: 00"
+			],
+			"student_no" : "031502015",
+			"tags" : [ "painting", "Web", "Java", "climbing", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D011", "D003" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Wed.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Thur.18: 30~20: 30"
+			],
+			"student_no" : "031502016",
+			"tags" : [ "singing", "Web", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D017", "D019" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Mon.10: 00~12: 00",
+				"Wed.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Sat.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Thur.16: 00~18: 00",
+				"Fri.20: 30~22: 30"
+			],
+			"student_no" : "031502017",
+			"tags" : [ "painting", "pingpong", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D015", "D005" ],
+			"free_time" : 
+			[
+				"Wed.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Sun.8: 00~10: 00",
+				"Mon.14: 00~16: 00"
+			],
+			"student_no" : "031502018",
+			"tags" : [ "tennis", "pingpong", "Web" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D009", "D004", "D005" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Wed.14: 00~16: 00",
+				"Tues.20: 30~22: 30",
+				"Sun.14: 00~16: 00",
+				"Tues.8: 00~10: 00",
+				"Thur.18: 30~20: 30",
+				"Thur.14: 00~16: 00"
+			],
+			"student_no" : "031502019",
+			"tags" : [ "tennis", "acting", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D018" ],
+			"free_time" : 
+			[
+				"Fri.16: 00~18: 00",
+				"Thur.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Tues.10: 00~12: 00",
+				"Mon.16: 00~18: 00"
+			],
+			"student_no" : "031502020",
+			"tags" : [ "Android", "basketball", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D019" ],
+			"free_time" : 
+			[
+				"Fri.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Sat.8: 00~10: 00",
+				"Sun.16: 00~18: 00",
+				"Sat.16: 00~18: 00",
+				"Sat.20: 30~22: 30"
+			],
+			"student_no" : "031502021",
+			"tags" : [ "iOS", "SQL", "collect", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D011", "D003", "D005" ],
+			"free_time" : 
+			[
+				"Sat.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Wed.20: 30~22: 30",
+				"Sat.8: 00~10: 00",
+				"Tues.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Mon.8: 00~10: 00",
+				"Sat.20: 30~22: 30"
+			],
+			"student_no" : "031502022",
+			"tags" : [ "tennis", "climbing", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D015", "D001", "D008" ],
+			"free_time" : [ "Thur.20: 30~22: 30", "Thur.14: 00~16: 00" ],
+			"student_no" : "031502023",
+			"tags" : [ "travel", ".net", "swimming", "running", "painting" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D014", "D005", "D015" ],
+			"free_time" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Fri.16: 00~18: 00",
+				"Fri.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Fri.14: 00~16: 00",
+				"Wed.14: 00~16: 00"
+			],
+			"student_no" : "031502024",
+			"tags" : [ "painting", "singing", "tennis", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D011", "D012", "D016" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Wed.20: 30~22: 30",
+				"Fri.14: 00~16: 00",
+				"Wed.18: 30~20: 30",
+				"Fri.8: 00~10: 00",
+				"Fri.18: 30~20: 30",
+				"Sun.20: 30~22: 30",
+				"Sun.8: 00~10: 00",
+				"Sun.14: 00~16: 00",
+				"Mon.8: 00~10: 00"
+			],
+			"student_no" : "031502025",
+			"tags" : [ "painting", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D007" ],
+			"free_time" : 
+			[
+				"Thur.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Sat.14: 00~16: 00"
+			],
+			"student_no" : "031502026",
+			"tags" : [ "dancing", "travel", "running", "collect", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D007", "D001" ],
+			"free_time" : 
+			[
+				"Thur.16: 00~18: 00",
+				"Thur.14: 00~16: 00",
+				"Fri.8: 00~10: 00",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502027",
+			"tags" : [ ".net", "PS", "painting", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D011", "D015", "D012" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Sat.14: 00~16: 00",
+				"Sun.10: 00~12: 00",
+				"Wed.18: 30~20: 30",
+				"Wed.14: 00~16: 00",
+				"Sat.18: 30~20: 30",
+				"Mon.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Thur.20: 30~22: 30",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502028",
+			"tags" : [ "basketball", "movies", "iOS", "soccer" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D007", "D015", "D003" ],
+			"free_time" : [ "Sun.18: 30~20: 30", "Fri.18: 30~20: 30" ],
+			"student_no" : "031502029",
+			"tags" : [ "PS", "SQL", ".net", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D015", "D003", "D019" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Tues.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.20: 30~22: 30"
+			],
+			"student_no" : "031502030",
+			"tags" : [ "reading", "fishing", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D005", "D007", "D019" ],
+			"free_time" : 
+			[
+				"Thur.8: 00~10: 00",
+				"Sat.14: 00~16: 00",
+				"Fri.16: 00~18: 00",
+				"Thur.20: 30~22: 30",
+				"Wed.8: 00~10: 00"
+			],
+			"student_no" : "031502031",
+			"tags" : [ "travel", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D019", "D005" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Sun.14: 00~16: 00",
+				"Sat.18: 30~20: 30",
+				"Mon.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Tues.8: 00~10: 00",
+				"Sun.10: 00~12: 00"
+			],
+			"student_no" : "031502032",
+			"tags" : [ "pingpong", "iOS", ".net", "Linux", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D017" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Sun.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Wed.14: 00~16: 00"
+			],
+			"student_no" : "031502033",
+			"tags" : [ "tennis", "reading", "Java", ".net", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D007" ],
+			"free_time" : 
+			[
+				"Fri.14: 00~16: 00",
+				"Sun.8: 00~10: 00",
+				"Sun.14: 00~16: 00",
+				"Mon.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Sat.8: 00~10: 00"
+			],
+			"student_no" : "031502034",
+			"tags" : [ ".net", "soccer", "climbing", "fishing", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D019" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Sun.18: 30~20: 30",
+				"Wed.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Thur.14: 00~16: 00",
+				"Mon.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Sun.20: 30~22: 30"
+			],
+			"student_no" : "031502035",
+			"tags" : [ "soccer", "singing", "reading", "SQL", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D013" ],
+			"free_time" : [ "Fri.16: 00~18: 00", "Sun.16: 00~18: 00" ],
+			"student_no" : "031502036",
+			"tags" : [ "PS", "collect", "SQL", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D019" ],
+			"free_time" : 
+			[
+				"Sat.14: 00~16: 00",
+				"Wed.18: 30~20: 30",
+				"Sat.16: 00~18: 00",
+				"Sun.8: 00~10: 00",
+				"Wed.8: 00~10: 00",
+				"Tues.14: 00~16: 00",
+				"Wed.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Sat.8: 00~10: 00"
+			],
+			"student_no" : "031502037",
+			"tags" : [ "tennis", "Java", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D007", "D013" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Sun.18: 30~20: 30",
+				"Sat.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Mon.8: 00~10: 00",
+				"Fri.16: 00~18: 00",
+				"Sun.20: 30~22: 30",
+				"Thur.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Sun.16: 00~18: 00",
+				"Sun.8: 00~10: 00"
+			],
+			"student_no" : "031502038",
+			"tags" : [ "tennis", "Linux", "painting", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D007" ],
+			"free_time" : 
+			[
+				"Wed.10: 00~12: 00",
+				"Tues.10: 00~12: 00",
+				"Mon.18: 30~20: 30",
+				"Thur.10: 00~12: 00",
+				"Mon.10: 00~12: 00",
+				"Mon.14: 00~16: 00",
+				"Sat.16: 00~18: 00",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502039",
+			"tags" : [ "Android", "painting" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D007", "D009", "D017" ],
+			"free_time" : 
+			[
+				"Fri.18: 30~20: 30",
+				"Sat.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Thur.8: 00~10: 00",
+				"Fri.10: 00~12: 00",
+				"Sat.20: 30~22: 30",
+				"Mon.20: 30~22: 30"
+			],
+			"student_no" : "031502040",
+			"tags" : [ "Java", "soccer", "climbing", "tennis", "Web" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D007", "D010", "D016" ],
+			"free_time" : 
+			[
+				"Fri.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Tues.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Sun.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Thur.20: 30~22: 30",
+				"Sun.18: 30~20: 30"
+			],
+			"student_no" : "031502041",
+			"tags" : [ "dancing", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D019" ],
+			"free_time" : 
+			[
+				"Mon.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Thur.20: 30~22: 30",
+				"Tues.8: 00~10: 00",
+				"Mon.20: 30~22: 30",
+				"Wed.18: 30~20: 30",
+				"Tues.18: 30~20: 30"
+			],
+			"student_no" : "031502042",
+			"tags" : [ "acting", "Java", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D013", "D001", "D003" ],
+			"free_time" : 
+			[
+				"Thur.20: 30~22: 30",
+				"Sun.14: 00~16: 00",
+				"Mon.10: 00~12: 00",
+				"Wed.8: 00~10: 00",
+				"Mon.14: 00~16: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502043",
+			"tags" : [ "iOS", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D008", "D007", "D017" ],
+			"free_time" : 
+			[
+				"Thur.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Fri.18: 30~20: 30",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502044",
+			"tags" : [ "collect", "climbing", "acting", "reading", "Web" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D017", "D007", "D001" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Sun.10: 00~12: 00",
+				"Sat.20: 30~22: 30",
+				"Sun.20: 30~22: 30",
+				"Fri.14: 00~16: 00",
+				"Thur.8: 00~10: 00",
+				"Sat.16: 00~18: 00",
+				"Thur.20: 30~22: 30",
+				"Thur.16: 00~18: 00",
+				"Tues.14: 00~16: 00"
+			],
+			"student_no" : "031502045",
+			"tags" : [ "Linux", "iOS", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D003", "D015", "D013" ],
+			"free_time" : [ "Tues.20: 30~22: 30", "Sat.16: 00~18: 00" ],
+			"student_no" : "031502046",
+			"tags" : [ "reading", "Java", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D005", "D007" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Sat.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Tues.14: 00~16: 00",
+				"Tues.10: 00~12: 00",
+				"Fri.20: 30~22: 30",
+				"Sun.14: 00~16: 00"
+			],
+			"student_no" : "031502047",
+			"tags" : [ "pingpong", "swimming", "running", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D004", "D001", "D017" ],
+			"free_time" : 
+			[
+				"Tues.14: 00~16: 00",
+				"Sat.8: 00~10: 00",
+				"Sun.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Tues.16: 00~18: 00",
+				"Sat.20: 30~22: 30",
+				"Fri.18: 30~20: 30"
+			],
+			"student_no" : "031502048",
+			"tags" : [ "fishing", ".net", "Java", "soccer" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D001", "D017", "D005" ],
+			"free_time" : 
+			[
+				"Fri.20: 30~22: 30",
+				"Tues.14: 00~16: 00",
+				"Sat.20: 30~22: 30",
+				"Thur.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Mon.18: 30~20: 30",
+				"Thur.16: 00~18: 00",
+				"Wed.18: 30~20: 30",
+				"Fri.14: 00~16: 00",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502049",
+			"tags" : [ ".net", "swimming", "acting", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D011", "D007", "D003" ],
+			"free_time" : 
+			[
+				"Sat.16: 00~18: 00",
+				"Sat.20: 30~22: 30",
+				"Wed.14: 00~16: 00",
+				"Wed.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Sun.10: 00~12: 00",
+				"Tues.10: 00~12: 00"
+			],
+			"student_no" : "031502050",
+			"tags" : [ "movies", "fishing", "pingpong", "iOS" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D007" ],
+			"free_time" : 
+			[
+				"Wed.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.8: 00~10: 00",
+				"Sun.20: 30~22: 30"
+			],
+			"student_no" : "031502051",
+			"tags" : [ "SQL", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D001" ],
+			"free_time" : 
+			[
+				"Thur.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Thur.14: 00~16: 00",
+				"Sat.8: 00~10: 00",
+				"Thur.10: 00~12: 00"
+			],
+			"student_no" : "031502052",
+			"tags" : [ "collect", ".net", "tennis", "SQL", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D017" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Wed.8: 00~10: 00",
+				"Wed.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.10: 00~12: 00"
+			],
+			"student_no" : "031502053",
+			"tags" : [ "travel", "Java", "fishing", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D017", "D015" ],
+			"free_time" : 
+			[
+				"Fri.14: 00~16: 00",
+				"Thur.8: 00~10: 00",
+				"Wed.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Wed.20: 30~22: 30",
+				"Sun.18: 30~20: 30",
+				"Thur.14: 00~16: 00",
+				"Wed.10: 00~12: 00"
+			],
+			"student_no" : "031502054",
+			"tags" : [ "PS", "soccer", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D001", "D013", "D011" ],
+			"free_time" : 
+			[
+				"Thur.8: 00~10: 00",
+				"Fri.8: 00~10: 00",
+				"Fri.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Sun.8: 00~10: 00"
+			],
+			"student_no" : "031502055",
+			"tags" : [ "tennis", "pingpong", "iOS", "fishing", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D013", "D007" ],
+			"free_time" : 
+			[
+				"Sun.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Sun.14: 00~16: 00",
+				"Thur.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Sat.14: 00~16: 00"
+			],
+			"student_no" : "031502056",
+			"tags" : [ "running", "acting", "soccer", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D019", "D001" ],
+			"free_time" : [ "Fri.20: 30~22: 30", "Fri.10: 00~12: 00", "Wed.14: 00~16: 00" ],
+			"student_no" : "031502057",
+			"tags" : [ "Android", "Web", "iOS" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D007", "D017", "D001" ],
+			"free_time" : 
+			[
+				"Sat.8: 00~10: 00",
+				"Thur.14: 00~16: 00",
+				"Sun.10: 00~12: 00",
+				"Fri.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502058",
+			"tags" : [ "PS", "Linux", "SQL", "painting", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D018", "D001", "D019" ],
+			"free_time" : 
+			[
+				"Sat.16: 00~18: 00",
+				"Mon.14: 00~16: 00",
+				"Fri.14: 00~16: 00",
+				"Tues.14: 00~16: 00"
+			],
+			"student_no" : "031502059",
+			"tags" : [ "Android", "SQL", "tennis", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D005", "D003", "D017" ],
+			"free_time" : 
+			[
+				"Sat.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Mon.14: 00~16: 00",
+				"Mon.20: 30~22: 30",
+				"Sat.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Sat.14: 00~16: 00",
+				"Sun.10: 00~12: 00"
+			],
+			"student_no" : "031502060",
+			"tags" : [ "running", "pingpong", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D001" ],
+			"free_time" : 
+			[
+				"Sun.8: 00~10: 00",
+				"Mon.20: 30~22: 30",
+				"Thur.16: 00~18: 00",
+				"Sat.16: 00~18: 00",
+				"Sat.10: 00~12: 00",
+				"Sat.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Thur.8: 00~10: 00",
+				"Fri.10: 00~12: 00",
+				"Sat.8: 00~10: 00"
+			],
+			"student_no" : "031502061",
+			"tags" : [ "swimming", "Linux", "painting", "singing", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D011" ],
+			"free_time" : 
+			[
+				"Sat.20: 30~22: 30",
+				"Sat.16: 00~18: 00",
+				"Fri.14: 00~16: 00",
+				"Tues.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Thur.16: 00~18: 00",
+				"Tues.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Mon.18: 30~20: 30",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502062",
+			"tags" : [ "swimming", "pingpong", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D007", "D009", "D017" ],
+			"free_time" : 
+			[
+				"Fri.16: 00~18: 00",
+				"Fri.20: 30~22: 30",
+				"Sat.14: 00~16: 00",
+				"Thur.18: 30~20: 30",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502063",
+			"tags" : [ "SQL", "collect", "dancing", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D013", "D003", "D005" ],
+			"free_time" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Thur.8: 00~10: 00",
+				"Wed.14: 00~16: 00",
+				"Thur.14: 00~16: 00",
+				"Mon.10: 00~12: 00",
+				"Sat.18: 30~20: 30",
+				"Sat.20: 30~22: 30",
+				"Thur.16: 00~18: 00",
+				"Sat.10: 00~12: 00",
+				"Sun.8: 00~10: 00"
+			],
+			"student_no" : "031502064",
+			"tags" : [ "PS", "travel", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D005", "D011", "D015" ],
+			"free_time" : 
+			[
+				"Sat.20: 30~22: 30",
+				"Sun.20: 30~22: 30",
+				"Sun.18: 30~20: 30",
+				"Fri.14: 00~16: 00",
+				"Fri.18: 30~20: 30",
+				"Mon.16: 00~18: 00",
+				"Thur.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Wed.20: 30~22: 30"
+			],
+			"student_no" : "031502065",
+			"tags" : [ "fishing", "collect", "tennis", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D012", "D001" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Wed.16: 00~18: 00",
+				"Thur.8: 00~10: 00",
+				"Sat.18: 30~20: 30"
+			],
+			"student_no" : "031502066",
+			"tags" : [ "running", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D011" ],
+			"free_time" : 
+			[
+				"Sun.16: 00~18: 00",
+				"Sun.14: 00~16: 00",
+				"Wed.18: 30~20: 30",
+				"Thur.16: 00~18: 00"
+			],
+			"student_no" : "031502067",
+			"tags" : [ "swimming", "soccer", "PS", "dancing", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D019", "D001" ],
+			"free_time" : [ "Sun.10: 00~12: 00", "Mon.18: 30~20: 30" ],
+			"student_no" : "031502068",
+			"tags" : [ "dancing", "running", "tennis", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D001", "D014" ],
+			"free_time" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Sun.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Sat.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Sat.20: 30~22: 30",
+				"Sat.8: 00~10: 00"
+			],
+			"student_no" : "031502069",
+			"tags" : [ "swimming", "Web", ".net", "basketball", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D003" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Sun.14: 00~16: 00",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502070",
+			"tags" : [ "swimming", "Android", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D017", "D019", "D013" ],
+			"free_time" : 
+			[
+				"Mon.14: 00~16: 00",
+				"Sun.20: 30~22: 30",
+				"Mon.8: 00~10: 00",
+				"Sat.8: 00~10: 00",
+				"Tues.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Mon.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Sun.14: 00~16: 00"
+			],
+			"student_no" : "031502071",
+			"tags" : [ "swimming", "acting", "climbing", "tennis", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D015", "D013", "D002" ],
+			"free_time" : [ "Tues.16: 00~18: 00", "Sat.16: 00~18: 00" ],
+			"student_no" : "031502072",
+			"tags" : [ "swimming", "running", "tennis", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D011", "D019" ],
+			"free_time" : 
+			[
+				"Mon.10: 00~12: 00",
+				"Wed.16: 00~18: 00",
+				"Wed.8: 00~10: 00",
+				"Tues.20: 30~22: 30",
+				"Tues.18: 30~20: 30",
+				"Fri.10: 00~12: 00",
+				"Mon.18: 30~20: 30"
+			],
+			"student_no" : "031502073",
+			"tags" : [ "dancing", "basketball", ".net", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D005", "D007", "D017" ],
+			"free_time" : 
+			[
+				"Mon.14: 00~16: 00",
+				"Sat.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Thur.10: 00~12: 00",
+				"Sat.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Wed.10: 00~12: 00",
+				"Sun.18: 30~20: 30",
+				"Thur.18: 30~20: 30",
+				"Fri.8: 00~10: 00",
+				"Fri.18: 30~20: 30"
+			],
+			"student_no" : "031502074",
+			"tags" : [ "collect", "pingpong", "fishing", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D013", "D017", "D019" ],
+			"free_time" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Wed.8: 00~10: 00",
+				"Tues.8: 00~10: 00",
+				"Sun.20: 30~22: 30",
+				"Wed.20: 30~22: 30",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502075",
+			"tags" : [ ".net", "SQL", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D011", "D008", "D013" ],
+			"free_time" : [ "Mon.8: 00~10: 00", "Wed.14: 00~16: 00" ],
+			"student_no" : "031502076",
+			"tags" : [ "climbing", "movies", "running", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D003", "D009", "D005" ],
+			"free_time" : [ "Fri.20: 30~22: 30", "Sat.10: 00~12: 00", "Sat.20: 30~22: 30" ],
+			"student_no" : "031502077",
+			"tags" : [ "soccer", "tennis", "Java", "dancing", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D015", "D017" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Wed.20: 30~22: 30",
+				"Fri.20: 30~22: 30",
+				"Wed.16: 00~18: 00"
+			],
+			"student_no" : "031502078",
+			"tags" : [ "singing", "travel", "fishing", "running", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D017", "D011", "D003" ],
+			"free_time" : 
+			[
+				"Sat.14: 00~16: 00",
+				"Thur.14: 00~16: 00",
+				"Mon.10: 00~12: 00",
+				"Sat.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Tues.14: 00~16: 00",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502079",
+			"tags" : [ "travel", "PS", "climbing", "collect", "iOS" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D007", "D017" ],
+			"free_time" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Mon.20: 30~22: 30",
+				"Wed.8: 00~10: 00",
+				"Tues.14: 00~16: 00",
+				"Sat.10: 00~12: 00",
+				"Wed.20: 30~22: 30",
+				"Thur.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Sun.10: 00~12: 00"
+			],
+			"student_no" : "031502080",
+			"tags" : [ ".net", "iOS", "soccer", "PS", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D019" ],
+			"free_time" : 
+			[
+				"Tues.16: 00~18: 00",
+				"Wed.14: 00~16: 00",
+				"Sat.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Wed.20: 30~22: 30",
+				"Thur.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Fri.20: 30~22: 30",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502081",
+			"tags" : [ "singing", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D017" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Thur.8: 00~10: 00",
+				"Tues.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Tues.18: 30~20: 30",
+				"Wed.8: 00~10: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.18: 30~20: 30"
+			],
+			"student_no" : "031502082",
+			"tags" : [ "reading", "tennis", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D005" ],
+			"free_time" : [ "Sun.14: 00~16: 00", "Tues.14: 00~16: 00", "Thur.18: 30~20: 30" ],
+			"student_no" : "031502083",
+			"tags" : [ "soccer", "collect", "SQL", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D015", "D013", "D007" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Sat.20: 30~22: 30",
+				"Sat.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Thur.8: 00~10: 00"
+			],
+			"student_no" : "031502084",
+			"tags" : [ "iOS", "travel", "running", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D009", "D003" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Wed.8: 00~10: 00",
+				"Mon.8: 00~10: 00",
+				"Fri.18: 30~20: 30",
+				"Thur.18: 30~20: 30",
+				"Sat.14: 00~16: 00",
+				"Sun.18: 30~20: 30",
+				"Fri.14: 00~16: 00",
+				"Thur.8: 00~10: 00"
+			],
+			"student_no" : "031502085",
+			"tags" : [ "dancing", "singing", "collect", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D007" ],
+			"free_time" : 
+			[
+				"Thur.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Sat.16: 00~18: 00",
+				"Fri.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Fri.8: 00~10: 00",
+				"Wed.8: 00~10: 00",
+				"Sat.10: 00~12: 00",
+				"Wed.10: 00~12: 00"
+			],
+			"student_no" : "031502086",
+			"tags" : [ "swimming", "pingpong", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D001", "D003", "D005" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Sat.10: 00~12: 00",
+				"Sat.8: 00~10: 00",
+				"Sun.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Sun.16: 00~18: 00"
+			],
+			"student_no" : "031502087",
+			"tags" : [ "soccer", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D005", "D003", "D016" ],
+			"free_time" : 
+			[
+				"Wed.14: 00~16: 00",
+				"Mon.10: 00~12: 00",
+				"Sat.18: 30~20: 30",
+				"Wed.8: 00~10: 00",
+				"Sat.14: 00~16: 00",
+				"Tues.10: 00~12: 00"
+			],
+			"student_no" : "031502088",
+			"tags" : [ "painting", "fishing", "Web" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D017", "D005" ],
+			"free_time" : 
+			[
+				"Sat.16: 00~18: 00",
+				"Tues.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Mon.8: 00~10: 00",
+				"Sat.14: 00~16: 00",
+				"Wed.8: 00~10: 00"
+			],
+			"student_no" : "031502089",
+			"tags" : [ "soccer", "Linux", "running", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D015" ],
+			"free_time" : 
+			[
+				"Tues.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Wed.20: 30~22: 30",
+				"Thur.16: 00~18: 00"
+			],
+			"student_no" : "031502090",
+			"tags" : [ "painting", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D017", "D013" ],
+			"free_time" : 
+			[
+				"Tues.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Sat.16: 00~18: 00",
+				"Sun.16: 00~18: 00",
+				"Fri.20: 30~22: 30"
+			],
+			"student_no" : "031502091",
+			"tags" : [ "travel", "painting" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D011", "D013" ],
+			"free_time" : 
+			[
+				"Sat.20: 30~22: 30",
+				"Fri.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Sat.10: 00~12: 00",
+				"Fri.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Sat.14: 00~16: 00"
+			],
+			"student_no" : "031502092",
+			"tags" : [ "reading", "Web", "basketball", "SQL", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D007", "D013", "D009" ],
+			"free_time" : 
+			[
+				"Mon.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Tues.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Wed.8: 00~10: 00",
+				"Mon.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Sun.10: 00~12: 00"
+			],
+			"student_no" : "031502093",
+			"tags" : [ "swimming", "running", "pingpong", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D019", "D011", "D005" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Wed.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Wed.20: 30~22: 30",
+				"Tues.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Tues.14: 00~16: 00"
+			],
+			"student_no" : "031502094",
+			"tags" : [ "singing", "tennis", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D015", "D011" ],
+			"free_time" : [ "Sun.16: 00~18: 00", "Thur.20: 30~22: 30" ],
+			"student_no" : "031502095",
+			"tags" : [ "collect", "PS", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D007", "D003", "D017" ],
+			"free_time" : 
+			[
+				"Thur.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Thur.8: 00~10: 00",
+				"Fri.8: 00~10: 00"
+			],
+			"student_no" : "031502096",
+			"tags" : [ "Linux", "reading", "soccer", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D003", "D015" ],
+			"free_time" : 
+			[
+				"Sat.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Thur.10: 00~12: 00",
+				"Wed.18: 30~20: 30",
+				"Thur.18: 30~20: 30",
+				"Tues.10: 00~12: 00"
+			],
+			"student_no" : "031502097",
+			"tags" : [ "collect", "Java", "Android", "fishing", "soccer" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D011", "D017", "D007" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Mon.14: 00~16: 00",
+				"Wed.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Sun.14: 00~16: 00",
+				"Wed.16: 00~18: 00"
+			],
+			"student_no" : "031502098",
+			"tags" : [ "running", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D017", "D005" ],
+			"free_time" : [ "Tues.18: 30~20: 30", "Thur.16: 00~18: 00", "Tues.20: 30~22: 30" ],
+			"student_no" : "031502099",
+			"tags" : [ "PS", ".net", "painting", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D009" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Wed.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Tues.14: 00~16: 00",
+				"Tues.10: 00~12: 00",
+				"Sat.20: 30~22: 30"
+			],
+			"student_no" : "031502100",
+			"tags" : [ "movies", "Web" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D017", "D015", "D001" ],
+			"free_time" : 
+			[
+				"Fri.18: 30~20: 30",
+				"Sat.14: 00~16: 00",
+				"Sat.8: 00~10: 00",
+				"Sun.16: 00~18: 00",
+				"Sun.20: 30~22: 30",
+				"Thur.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Sat.16: 00~18: 00",
+				"Tues.18: 30~20: 30"
+			],
+			"student_no" : "031502101",
+			"tags" : [ "soccer", "Web", "basketball", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D017", "D005", "D019" ],
+			"free_time" : 
+			[
+				"Sat.8: 00~10: 00",
+				"Thur.8: 00~10: 00",
+				"Mon.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Wed.8: 00~10: 00",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502102",
+			"tags" : [ "singing", "PS", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D015" ],
+			"free_time" : [ "Sat.10: 00~12: 00", "Sun.16: 00~18: 00", "Mon.16: 00~18: 00" ],
+			"student_no" : "031502103",
+			"tags" : [ "SQL", "Java", "Linux", "acting", "Web" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D007", "D003" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Sat.10: 00~12: 00",
+				"Wed.18: 30~20: 30",
+				"Fri.14: 00~16: 00"
+			],
+			"student_no" : "031502104",
+			"tags" : [ "Linux", "fishing", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D001" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Thur.8: 00~10: 00",
+				"Tues.8: 00~10: 00",
+				"Thur.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Fri.20: 30~22: 30"
+			],
+			"student_no" : "031502105",
+			"tags" : [ "fishing", "pingpong", ".net", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D001", "D017", "D008" ],
+			"free_time" : 
+			[
+				"Sat.10: 00~12: 00",
+				"Tues.10: 00~12: 00",
+				"Tues.20: 30~22: 30",
+				"Mon.18: 30~20: 30",
+				"Mon.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Sun.16: 00~18: 00",
+				"Sat.20: 30~22: 30",
+				"Tues.8: 00~10: 00",
+				"Thur.14: 00~16: 00",
+				"Mon.20: 30~22: 30"
+			],
+			"student_no" : "031502106",
+			"tags" : [ "iOS", "climbing", "PS", "fishing", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D003", "D005" ],
+			"free_time" : 
+			[
+				"Thur.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Tues.14: 00~16: 00",
+				"Fri.18: 30~20: 30",
+				"Sat.16: 00~18: 00",
+				"Tues.20: 30~22: 30",
+				"Sun.14: 00~16: 00"
+			],
+			"student_no" : "031502107",
+			"tags" : [ "travel", "movies", "soccer", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D001", "D003" ],
+			"free_time" : 
+			[
+				"Mon.10: 00~12: 00",
+				"Sun.14: 00~16: 00",
+				"Fri.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502108",
+			"tags" : [ "iOS", "travel", "Web", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D005", "D011" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Tues.14: 00~16: 00",
+				"Sat.18: 30~20: 30",
+				"Mon.18: 30~20: 30",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502109",
+			"tags" : [ "PS", "Linux", "fishing", "singing", "painting" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D011" ],
+			"free_time" : 
+			[
+				"Sat.8: 00~10: 00",
+				"Sun.14: 00~16: 00",
+				"Mon.20: 30~22: 30",
+				"Mon.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Thur.20: 30~22: 30",
+				"Tues.10: 00~12: 00"
+			],
+			"student_no" : "031502110",
+			"tags" : [ "dancing", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D005", "D009", "D003" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.16: 00~18: 00",
+				"Tues.18: 30~20: 30",
+				"Sat.14: 00~16: 00",
+				"Fri.18: 30~20: 30",
+				"Sun.18: 30~20: 30",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502111",
+			"tags" : [ "tennis", "travel", "singing", "Java", "painting" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D005", "D013", "D003" ],
+			"free_time" : 
+			[
+				"Thur.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Fri.8: 00~10: 00",
+				"Wed.10: 00~12: 00"
+			],
+			"student_no" : "031502112",
+			"tags" : [ "movies", "SQL", "dancing", "Java", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D015", "D011", "D009" ],
+			"free_time" : [ "Tues.8: 00~10: 00", "Wed.10: 00~12: 00" ],
+			"student_no" : "031502113",
+			"tags" : [ "reading", "singing", "basketball", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D012", "D005" ],
+			"free_time" : 
+			[
+				"Thur.8: 00~10: 00",
+				"Wed.8: 00~10: 00",
+				"Sun.10: 00~12: 00",
+				"Sun.18: 30~20: 30"
+			],
+			"student_no" : "031502114",
+			"tags" : [ "travel", "soccer", "swimming", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D005", "D009" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Thur.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Fri.8: 00~10: 00",
+				"Sat.20: 30~22: 30",
+				"Sun.18: 30~20: 30",
+				"Wed.14: 00~16: 00"
+			],
+			"student_no" : "031502115",
+			"tags" : [ "reading", "climbing", ".net", "dancing", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D019", "D017" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Sat.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Sat.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Mon.8: 00~10: 00",
+				"Wed.20: 30~22: 30",
+				"Sat.14: 00~16: 00"
+			],
+			"student_no" : "031502116",
+			"tags" : [ "fishing", "dancing", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D012", "D005", "D003" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Thur.20: 30~22: 30",
+				"Tues.14: 00~16: 00",
+				"Tues.16: 00~18: 00",
+				"Mon.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Sun.20: 30~22: 30"
+			],
+			"student_no" : "031502117",
+			"tags" : [ "movies", "painting", "SQL", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D005", "D017" ],
+			"free_time" : [ "Sun.8: 00~10: 00", "Tues.18: 30~20: 30", "Sun.14: 00~16: 00" ],
+			"student_no" : "031502118",
+			"tags" : [ "movies", "tennis", "climbing", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D019" ],
+			"free_time" : 
+			[
+				"Thur.8: 00~10: 00",
+				"Wed.16: 00~18: 00",
+				"Tues.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Sun.16: 00~18: 00",
+				"Sat.20: 30~22: 30",
+				"Thur.20: 30~22: 30"
+			],
+			"student_no" : "031502119",
+			"tags" : [ "Linux", "pingpong", "dancing", "acting", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D015" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Sun.10: 00~12: 00",
+				"Tues.20: 30~22: 30",
+				"Sun.14: 00~16: 00",
+				"Sun.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Sun.20: 30~22: 30",
+				"Mon.8: 00~10: 00",
+				"Tues.8: 00~10: 00"
+			],
+			"student_no" : "031502120",
+			"tags" : [ "Android", "iOS", "travel", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D009", "D001", "D019" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Wed.16: 00~18: 00",
+				"Mon.14: 00~16: 00",
+				"Mon.10: 00~12: 00"
+			],
+			"student_no" : "031502121",
+			"tags" : [ "soccer", "climbing", "collect", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D015", "D007", "D013" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Mon.18: 30~20: 30"
+			],
+			"student_no" : "031502122",
+			"tags" : [ "climbing", "singing", "Android", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D017", "D007" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Sun.8: 00~10: 00",
+				"Fri.10: 00~12: 00",
+				"Wed.10: 00~12: 00",
+				"Sun.18: 30~20: 30",
+				"Sun.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502123",
+			"tags" : [ "swimming", "Java", "iOS", "travel", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D019", "D015" ],
+			"free_time" : 
+			[
+				"Wed.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Tues.14: 00~16: 00",
+				"Mon.10: 00~12: 00",
+				"Sat.8: 00~10: 00",
+				"Tues.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Sat.14: 00~16: 00",
+				"Sun.16: 00~18: 00"
+			],
+			"student_no" : "031502124",
+			"tags" : [ "painting", "travel", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D007", "D013", "D005" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Wed.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Fri.16: 00~18: 00",
+				"Fri.20: 30~22: 30"
+			],
+			"student_no" : "031502125",
+			"tags" : [ "Android", "soccer", "movies", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D009", "D013", "D011" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Sun.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Thur.14: 00~16: 00"
+			],
+			"student_no" : "031502126",
+			"tags" : [ "fishing", "iOS", "swimming", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D019", "D007" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Mon.18: 30~20: 30",
+				"Sat.20: 30~22: 30",
+				"Fri.18: 30~20: 30",
+				"Mon.10: 00~12: 00",
+				"Thur.8: 00~10: 00",
+				"Fri.14: 00~16: 00"
+			],
+			"student_no" : "031502127",
+			"tags" : [ "singing", "climbing", "pingpong", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D015", "D019", "D009" ],
+			"free_time" : 
+			[
+				"Thur.10: 00~12: 00",
+				"Sun.16: 00~18: 00",
+				"Tues.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Mon.20: 30~22: 30",
+				"Thur.14: 00~16: 00",
+				"Tues.16: 00~18: 00",
+				"Fri.8: 00~10: 00"
+			],
+			"student_no" : "031502128",
+			"tags" : [ "Java", "running", ".net", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D015" ],
+			"free_time" : 
+			[
+				"Mon.18: 30~20: 30",
+				"Sat.20: 30~22: 30",
+				"Thur.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Tues.8: 00~10: 00",
+				"Sun.18: 30~20: 30",
+				"Wed.10: 00~12: 00"
+			],
+			"student_no" : "031502129",
+			"tags" : [ "SQL", "PS", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D011", "D015" ],
+			"free_time" : 
+			[
+				"Wed.10: 00~12: 00",
+				"Thur.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Mon.14: 00~16: 00",
+				"Sun.20: 30~22: 30",
+				"Tues.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Mon.20: 30~22: 30"
+			],
+			"student_no" : "031502130",
+			"tags" : [ "Java", "travel", "collect", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D007", "D019" ],
+			"free_time" : 
+			[
+				"Sat.14: 00~16: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Sat.8: 00~10: 00",
+				"Wed.10: 00~12: 00",
+				"Tues.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Mon.10: 00~12: 00"
+			],
+			"student_no" : "031502131",
+			"tags" : [ "running", "basketball", "Java", ".net", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D009", "D001" ],
+			"free_time" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Sat.14: 00~16: 00",
+				"Tues.14: 00~16: 00",
+				"Sat.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Sun.10: 00~12: 00",
+				"Wed.8: 00~10: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502132",
+			"tags" : [ "Web", "dancing", "SQL", "singing", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D018", "D005", "D008" ],
+			"free_time" : [ "Sat.14: 00~16: 00", "Fri.20: 30~22: 30", "Thur.20: 30~22: 30" ],
+			"student_no" : "031502133",
+			"tags" : [ "collect", "SQL", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D005", "D011", "D019" ],
+			"free_time" : 
+			[
+				"Wed.10: 00~12: 00",
+				"Fri.8: 00~10: 00",
+				"Sat.8: 00~10: 00",
+				"Sat.10: 00~12: 00"
+			],
+			"student_no" : "031502134",
+			"tags" : [ "climbing", "Android", "painting", "fishing", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D007", "D005", "D001" ],
+			"free_time" : 
+			[
+				"Wed.18: 30~20: 30",
+				"Tues.14: 00~16: 00",
+				"Sun.16: 00~18: 00",
+				"Fri.14: 00~16: 00",
+				"Tues.10: 00~12: 00",
+				"Sat.8: 00~10: 00",
+				"Tues.18: 30~20: 30",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502135",
+			"tags" : [ "tennis", "climbing", "travel", "SQL", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D014" ],
+			"free_time" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Sun.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Tues.14: 00~16: 00",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502136",
+			"tags" : [ "singing", "soccer" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D003", "D009", "D011" ],
+			"free_time" : [ "Thur.20: 30~22: 30", "Fri.20: 30~22: 30", "Sun.18: 30~20: 30" ],
+			"student_no" : "031502137",
+			"tags" : [ "basketball", "tennis", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D017", "D011" ],
+			"free_time" : [ "Mon.20: 30~22: 30", "Thur.20: 30~22: 30", "Thur.18: 30~20: 30" ],
+			"student_no" : "031502138",
+			"tags" : [ "climbing", "movies", "tennis", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D011" ],
+			"free_time" : [ "Wed.20: 30~22: 30", "Tues.8: 00~10: 00" ],
+			"student_no" : "031502139",
+			"tags" : [ "pingpong", "fishing", "running", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D015", "D013" ],
+			"free_time" : 
+			[
+				"Thur.20: 30~22: 30",
+				"Tues.18: 30~20: 30",
+				"Fri.18: 30~20: 30",
+				"Wed.18: 30~20: 30",
+				"Wed.8: 00~10: 00",
+				"Thur.14: 00~16: 00",
+				"Sun.14: 00~16: 00",
+				"Sun.20: 30~22: 30",
+				"Sat.20: 30~22: 30",
+				"Wed.20: 30~22: 30"
+			],
+			"student_no" : "031502140",
+			"tags" : [ "swimming", "acting", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D009", "D001" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Mon.8: 00~10: 00",
+				"Sat.18: 30~20: 30",
+				"Tues.16: 00~18: 00",
+				"Sun.8: 00~10: 00",
+				"Thur.18: 30~20: 30",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502141",
+			"tags" : [ "climbing", "Java", "Linux", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D019", "D018", "D017" ],
+			"free_time" : 
+			[
+				"Tues.20: 30~22: 30",
+				"Thur.14: 00~16: 00",
+				"Thur.8: 00~10: 00",
+				"Mon.14: 00~16: 00",
+				"Fri.18: 30~20: 30",
+				"Thur.10: 00~12: 00",
+				"Sat.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Sat.18: 30~20: 30"
+			],
+			"student_no" : "031502142",
+			"tags" : [ "collect", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D003", "D008" ],
+			"free_time" : 
+			[
+				"Thur.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Sun.16: 00~18: 00",
+				"Thur.16: 00~18: 00",
+				"Wed.8: 00~10: 00",
+				"Sun.20: 30~22: 30",
+				"Sun.14: 00~16: 00"
+			],
+			"student_no" : "031502143",
+			"tags" : [ "climbing", "running", "singing", "swimming", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D015", "D005" ],
+			"free_time" : [ "Tues.14: 00~16: 00", "Tues.16: 00~18: 00" ],
+			"student_no" : "031502144",
+			"tags" : [ "running", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D011", "D015" ],
+			"free_time" : 
+			[
+				"Fri.14: 00~16: 00",
+				"Tues.10: 00~12: 00",
+				"Sat.10: 00~12: 00",
+				"Tues.18: 30~20: 30"
+			],
+			"student_no" : "031502145",
+			"tags" : [ "Linux", "pingpong", "soccer", ".net", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D017" ],
+			"free_time" : 
+			[
+				"Wed.18: 30~20: 30",
+				"Wed.14: 00~16: 00",
+				"Sat.18: 30~20: 30",
+				"Sun.8: 00~10: 00",
+				"Wed.20: 30~22: 30",
+				"Wed.10: 00~12: 00",
+				"Thur.10: 00~12: 00"
+			],
+			"student_no" : "031502146",
+			"tags" : [ "travel", "tennis", "iOS", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D019", "D001" ],
+			"free_time" : 
+			[
+				"Tues.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Thur.18: 30~20: 30",
+				"Fri.16: 00~18: 00",
+				"Tues.8: 00~10: 00",
+				"Wed.20: 30~22: 30"
+			],
+			"student_no" : "031502147",
+			"tags" : [ "SQL", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D005" ],
+			"free_time" : 
+			[
+				"Sat.18: 30~20: 30",
+				"Wed.14: 00~16: 00",
+				"Sun.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.16: 00~18: 00",
+				"Tues.18: 30~20: 30",
+				"Tues.10: 00~12: 00"
+			],
+			"student_no" : "031502148",
+			"tags" : [ "acting", "tennis", "swimming", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D010", "D017" ],
+			"free_time" : 
+			[
+				"Fri.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Fri.20: 30~22: 30",
+				"Thur.8: 00~10: 00",
+				"Thur.18: 30~20: 30",
+				"Sun.18: 30~20: 30",
+				"Tues.14: 00~16: 00"
+			],
+			"student_no" : "031502149",
+			"tags" : [ "fishing", "travel", "singing", "Android", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D007", "D017" ],
+			"free_time" : 
+			[
+				"Sat.8: 00~10: 00",
+				"Fri.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Thur.16: 00~18: 00",
+				"Mon.8: 00~10: 00",
+				"Sat.14: 00~16: 00",
+				"Sun.20: 30~22: 30",
+				"Thur.18: 30~20: 30"
+			],
+			"student_no" : "031502150",
+			"tags" : [ "climbing", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D017", "D011" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Thur.8: 00~10: 00",
+				"Sat.16: 00~18: 00",
+				"Sat.10: 00~12: 00",
+				"Thur.14: 00~16: 00"
+			],
+			"student_no" : "031502151",
+			"tags" : [ "Linux", "tennis", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D015" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Tues.18: 30~20: 30",
+				"Fri.10: 00~12: 00",
+				"Wed.20: 30~22: 30",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502152",
+			"tags" : [ "soccer", "climbing", "basketball", "singing", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D015", "D001" ],
+			"free_time" : 
+			[
+				"Tues.16: 00~18: 00",
+				"Sat.8: 00~10: 00",
+				"Thur.18: 30~20: 30",
+				"Tues.10: 00~12: 00",
+				"Thur.14: 00~16: 00",
+				"Wed.16: 00~18: 00",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502153",
+			"tags" : [ "Web", "fishing", "pingpong", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D007", "D013", "D009" ],
+			"free_time" : 
+			[
+				"Sat.14: 00~16: 00",
+				"Sun.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Tues.14: 00~16: 00",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502154",
+			"tags" : [ "Linux", "running", "fishing", "swimming", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D017" ],
+			"free_time" : 
+			[
+				"Sat.20: 30~22: 30",
+				"Thur.8: 00~10: 00",
+				"Sat.14: 00~16: 00",
+				"Sat.16: 00~18: 00",
+				"Sat.8: 00~10: 00"
+			],
+			"student_no" : "031502155",
+			"tags" : [ "reading", "collect", "fishing", ".net", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D005", "D009", "D001" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Sat.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Thur.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502156",
+			"tags" : [ "Web", "Linux", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D013", "D009", "D011" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Wed.16: 00~18: 00",
+				"Sun.8: 00~10: 00",
+				"Wed.18: 30~20: 30",
+				"Wed.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Sun.14: 00~16: 00"
+			],
+			"student_no" : "031502157",
+			"tags" : [ "painting", "reading", "fishing", "movies", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D017", "D013", "D015" ],
+			"free_time" : [ "Tues.8: 00~10: 00", "Sun.8: 00~10: 00", "Mon.8: 00~10: 00" ],
+			"student_no" : "031502158",
+			"tags" : [ "movies", "tennis", "iOS", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D017" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Fri.14: 00~16: 00",
+				"Fri.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Thur.16: 00~18: 00",
+				"Sun.18: 30~20: 30"
+			],
+			"student_no" : "031502159",
+			"tags" : [ "acting", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D013", "D017", "D002" ],
+			"free_time" : 
+			[
+				"Thur.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Tues.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Fri.10: 00~12: 00",
+				"Fri.20: 30~22: 30",
+				"Fri.8: 00~10: 00",
+				"Sun.8: 00~10: 00",
+				"Thur.20: 30~22: 30",
+				"Fri.14: 00~16: 00"
+			],
+			"student_no" : "031502160",
+			"tags" : [ "Web", "Android", "climbing", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D005", "D006" ],
+			"free_time" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Sat.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Sun.10: 00~12: 00",
+				"Mon.18: 30~20: 30",
+				"Mon.8: 00~10: 00",
+				"Mon.20: 30~22: 30"
+			],
+			"student_no" : "031502161",
+			"tags" : [ "acting", "singing", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D005", "D013", "D006" ],
+			"free_time" : [ "Wed.10: 00~12: 00", "Thur.8: 00~10: 00" ],
+			"student_no" : "031502162",
+			"tags" : [ "pingpong", "painting", "travel", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D011", "D013", "D007" ],
+			"free_time" : 
+			[
+				"Mon.8: 00~10: 00",
+				"Fri.8: 00~10: 00",
+				"Tues.8: 00~10: 00",
+				"Sun.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Mon.20: 30~22: 30"
+			],
+			"student_no" : "031502163",
+			"tags" : [ "swimming", "iOS", "Android", "running", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D000", "D009" ],
+			"free_time" : 
+			[
+				"Sun.16: 00~18: 00",
+				"Sat.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Thur.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Wed.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Wed.16: 00~18: 00",
+				"Wed.18: 30~20: 30"
+			],
+			"student_no" : "031502164",
+			"tags" : [ "SQL", "dancing", "painting", "reading", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D019", "D007" ],
+			"free_time" : 
+			[
+				"Sun.8: 00~10: 00",
+				"Sun.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Sat.8: 00~10: 00",
+				"Fri.8: 00~10: 00",
+				"Sun.20: 30~22: 30",
+				"Tues.14: 00~16: 00",
+				"Thur.20: 30~22: 30"
+			],
+			"student_no" : "031502165",
+			"tags" : [ "acting", "pingpong", "travel", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D017", "D015" ],
+			"free_time" : 
+			[
+				"Sun.8: 00~10: 00",
+				"Thur.8: 00~10: 00",
+				"Thur.14: 00~16: 00",
+				"Fri.8: 00~10: 00",
+				"Thur.10: 00~12: 00",
+				"Sat.8: 00~10: 00",
+				"Wed.20: 30~22: 30",
+				"Thur.16: 00~18: 00",
+				"Fri.10: 00~12: 00",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502166",
+			"tags" : [ "dancing", "iOS", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D005" ],
+			"free_time" : 
+			[
+				"Sat.14: 00~16: 00",
+				"Mon.14: 00~16: 00",
+				"Mon.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Wed.14: 00~16: 00",
+				"Tues.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Wed.16: 00~18: 00"
+			],
+			"student_no" : "031502167",
+			"tags" : [ "Android", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D019", "D017", "D001" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Sat.18: 30~20: 30",
+				"Mon.20: 30~22: 30",
+				"Thur.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Tues.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Mon.14: 00~16: 00",
+				"Mon.10: 00~12: 00"
+			],
+			"student_no" : "031502168",
+			"tags" : [ "collect", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D005" ],
+			"free_time" : [ "Wed.16: 00~18: 00", "Sun.8: 00~10: 00", "Sun.20: 30~22: 30" ],
+			"student_no" : "031502169",
+			"tags" : [ "movies", "Android", "basketball", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D015", "D005", "D011" ],
+			"free_time" : 
+			[
+				"Mon.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Fri.10: 00~12: 00",
+				"Tues.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Wed.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Wed.16: 00~18: 00"
+			],
+			"student_no" : "031502170",
+			"tags" : [ "soccer", "SQL", "Web", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D013", "D009", "D015" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Wed.14: 00~16: 00",
+				"Thur.10: 00~12: 00",
+				"Wed.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Sun.14: 00~16: 00",
+				"Sun.18: 30~20: 30",
+				"Thur.20: 30~22: 30"
+			],
+			"student_no" : "031502171",
+			"tags" : [ "iOS", "acting", "Linux", "Java", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D009" ],
+			"free_time" : 
+			[
+				"Fri.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Sat.16: 00~18: 00",
+				"Tues.20: 30~22: 30",
+				"Sun.14: 00~16: 00",
+				"Wed.16: 00~18: 00",
+				"Wed.14: 00~16: 00",
+				"Tues.10: 00~12: 00"
+			],
+			"student_no" : "031502172",
+			"tags" : [ "dancing", "iOS", "climbing", "swimming", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D015", "D013" ],
+			"free_time" : 
+			[
+				"Wed.10: 00~12: 00",
+				"Tues.10: 00~12: 00",
+				"Thur.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Sun.18: 30~20: 30",
+				"Thur.16: 00~18: 00",
+				"Sat.16: 00~18: 00",
+				"Mon.18: 30~20: 30",
+				"Tues.8: 00~10: 00"
+			],
+			"student_no" : "031502173",
+			"tags" : [ "collect", "PS", "acting", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D005", "D011" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Tues.14: 00~16: 00",
+				"Sun.14: 00~16: 00",
+				"Sat.18: 30~20: 30"
+			],
+			"student_no" : "031502174",
+			"tags" : [ "climbing", "travel", "acting", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D005", "D003" ],
+			"free_time" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Thur.16: 00~18: 00",
+				"Wed.16: 00~18: 00",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502175",
+			"tags" : [ "SQL", "pingpong", ".net", "Linux", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D001" ],
+			"free_time" : 
+			[
+				"Sat.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Sun.10: 00~12: 00",
+				"Sun.14: 00~16: 00",
+				"Sat.20: 30~22: 30",
+				"Sat.14: 00~16: 00"
+			],
+			"student_no" : "031502176",
+			"tags" : [ "pingpong", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D019", "D009", "D016" ],
+			"free_time" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Fri.8: 00~10: 00",
+				"Mon.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Sat.10: 00~12: 00",
+				"Wed.16: 00~18: 00",
+				"Wed.20: 30~22: 30"
+			],
+			"student_no" : "031502177",
+			"tags" : [ "climbing", "soccer", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D007", "D011" ],
+			"free_time" : [ "Tues.14: 00~16: 00", "Thur.18: 30~20: 30", "Mon.14: 00~16: 00" ],
+			"student_no" : "031502178",
+			"tags" : [ "collect", "basketball", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D007" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Tues.8: 00~10: 00",
+				"Sat.14: 00~16: 00"
+			],
+			"student_no" : "031502179",
+			"tags" : [ "swimming", "soccer", "travel", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D011", "D015", "D019" ],
+			"free_time" : 
+			[
+				"Fri.8: 00~10: 00",
+				"Sat.18: 30~20: 30",
+				"Tues.16: 00~18: 00",
+				"Fri.16: 00~18: 00",
+				"Sat.16: 00~18: 00",
+				"Fri.14: 00~16: 00",
+				"Sat.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Thur.16: 00~18: 00"
+			],
+			"student_no" : "031502180",
+			"tags" : [ "reading", "travel", "collect", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D019", "D009", "D012" ],
+			"free_time" : [ "Fri.20: 30~22: 30", "Wed.10: 00~12: 00", "Tues.20: 30~22: 30" ],
+			"student_no" : "031502181",
+			"tags" : [ "running", "movies", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D003", "D001" ],
+			"free_time" : 
+			[
+				"Fri.16: 00~18: 00",
+				"Thur.14: 00~16: 00",
+				"Mon.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Thur.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Sat.8: 00~10: 00",
+				"Sun.18: 30~20: 30",
+				"Wed.20: 30~22: 30"
+			],
+			"student_no" : "031502182",
+			"tags" : [ "collect", "fishing", "swimming", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D013", "D011" ],
+			"free_time" : 
+			[
+				"Mon.18: 30~20: 30",
+				"Thur.14: 00~16: 00",
+				"Thur.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Sat.10: 00~12: 00",
+				"Tues.20: 30~22: 30",
+				"Wed.18: 30~20: 30",
+				"Sun.20: 30~22: 30",
+				"Mon.20: 30~22: 30"
+			],
+			"student_no" : "031502183",
+			"tags" : [ "soccer", "pingpong", "reading", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D013", "D015" ],
+			"free_time" : 
+			[
+				"Wed.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Mon.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Mon.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Wed.18: 30~20: 30"
+			],
+			"student_no" : "031502184",
+			"tags" : [ "Java", "pingpong", "reading", ".net", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D005", "D001" ],
+			"free_time" : 
+			[
+				"Fri.8: 00~10: 00",
+				"Mon.14: 00~16: 00",
+				"Tues.20: 30~22: 30",
+				"Sun.8: 00~10: 00",
+				"Mon.8: 00~10: 00",
+				"Thur.14: 00~16: 00",
+				"Tues.10: 00~12: 00",
+				"Sun.10: 00~12: 00",
+				"Wed.8: 00~10: 00",
+				"Mon.18: 30~20: 30",
+				"Sun.18: 30~20: 30"
+			],
+			"student_no" : "031502185",
+			"tags" : [ "PS", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D003", "D017", "D011" ],
+			"free_time" : 
+			[
+				"Fri.18: 30~20: 30",
+				"Mon.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Sun.20: 30~22: 30",
+				"Mon.20: 30~22: 30",
+				"Thur.20: 30~22: 30",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502186",
+			"tags" : [ ".net", "Java", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D015", "D005" ],
+			"free_time" : 
+			[
+				"Fri.20: 30~22: 30",
+				"Thur.8: 00~10: 00",
+				"Sun.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Sat.20: 30~22: 30",
+				"Mon.20: 30~22: 30",
+				"Sat.18: 30~20: 30",
+				"Fri.16: 00~18: 00",
+				"Wed.10: 00~12: 00"
+			],
+			"student_no" : "031502187",
+			"tags" : [ "SQL", "running", "Web", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D005", "D001" ],
+			"free_time" : 
+			[
+				"Fri.20: 30~22: 30",
+				"Sun.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Tues.8: 00~10: 00",
+				"Wed.16: 00~18: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502188",
+			"tags" : [ "tennis", "swimming", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D017" ],
+			"free_time" : 
+			[
+				"Tues.20: 30~22: 30",
+				"Sun.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Thur.20: 30~22: 30",
+				"Sat.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Sat.18: 30~20: 30"
+			],
+			"student_no" : "031502189",
+			"tags" : [ "fishing", "SQL", ".net", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D002", "D011", "D001" ],
+			"free_time" : 
+			[
+				"Wed.14: 00~16: 00",
+				"Sat.8: 00~10: 00",
+				"Wed.8: 00~10: 00",
+				"Thur.18: 30~20: 30"
+			],
+			"student_no" : "031502190",
+			"tags" : [ ".net", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D013", "D006", "D005" ],
+			"free_time" : 
+			[
+				"Tues.10: 00~12: 00",
+				"Mon.14: 00~16: 00",
+				"Tues.14: 00~16: 00",
+				"Tues.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Tues.18: 30~20: 30",
+				"Wed.20: 30~22: 30",
+				"Mon.10: 00~12: 00"
+			],
+			"student_no" : "031502191",
+			"tags" : [ "Android", "iOS", "reading", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D013" ],
+			"free_time" : [ "Tues.18: 30~20: 30", "Sat.16: 00~18: 00" ],
+			"student_no" : "031502192",
+			"tags" : [ "iOS", "acting", "pingpong", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D019" ],
+			"free_time" : 
+			[
+				"Tues.8: 00~10: 00",
+				"Wed.8: 00~10: 00",
+				"Sun.20: 30~22: 30",
+				"Tues.20: 30~22: 30",
+				"Tues.16: 00~18: 00",
+				"Wed.14: 00~16: 00"
+			],
+			"student_no" : "031502193",
+			"tags" : [ "Web", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D015", "D003" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Sun.16: 00~18: 00",
+				"Tues.8: 00~10: 00",
+				"Tues.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Wed.20: 30~22: 30",
+				"Sat.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Sun.10: 00~12: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502194",
+			"tags" : [ "swimming", "fishing", "singing", "travel", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D010" ],
+			"free_time" : 
+			[
+				"Sat.18: 30~20: 30",
+				"Sat.14: 00~16: 00",
+				"Sat.16: 00~18: 00",
+				"Sat.8: 00~10: 00",
+				"Sun.8: 00~10: 00",
+				"Fri.18: 30~20: 30",
+				"Wed.20: 30~22: 30",
+				"Thur.20: 30~22: 30",
+				"Thur.14: 00~16: 00",
+				"Fri.20: 30~22: 30",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502195",
+			"tags" : [ "iOS", "painting", "collect", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D003", "D017", "D015" ],
+			"free_time" : 
+			[
+				"Sat.8: 00~10: 00",
+				"Sat.10: 00~12: 00",
+				"Thur.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Sat.20: 30~22: 30",
+				"Sat.18: 30~20: 30",
+				"Wed.10: 00~12: 00"
+			],
+			"student_no" : "031502196",
+			"tags" : [ "fishing", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D002", "D007" ],
+			"free_time" : 
+			[
+				"Sat.10: 00~12: 00",
+				"Tues.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Thur.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Fri.16: 00~18: 00",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502197",
+			"tags" : [ "pingpong", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D017", "D007" ],
+			"free_time" : [ "Thur.14: 00~16: 00", "Tues.16: 00~18: 00", "Thur.8: 00~10: 00" ],
+			"student_no" : "031502198",
+			"tags" : [ "Android", "collect", "movies", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D019", "D001" ],
+			"free_time" : [ "Mon.8: 00~10: 00", "Thur.18: 30~20: 30", "Sun.16: 00~18: 00" ],
+			"student_no" : "031502199",
+			"tags" : [ ".net", "running", "Linux", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D011", "D005" ],
+			"free_time" : [ "Thur.20: 30~22: 30", "Sun.8: 00~10: 00" ],
+			"student_no" : "031502200",
+			"tags" : [ "tennis", "pingpong", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D013", "D001", "D006" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Tues.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Fri.16: 00~18: 00",
+				"Fri.18: 30~20: 30",
+				"Sun.18: 30~20: 30",
+				"Mon.16: 00~18: 00",
+				"Sat.20: 30~22: 30",
+				"Tues.8: 00~10: 00"
+			],
+			"student_no" : "031502201",
+			"tags" : [ "running", "reading", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D011", "D009", "D003" ],
+			"free_time" : [ "Thur.16: 00~18: 00", "Tues.10: 00~12: 00" ],
+			"student_no" : "031502202",
+			"tags" : [ "running", "acting", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D011", "D013" ],
+			"free_time" : 
+			[
+				"Sun.8: 00~10: 00",
+				"Mon.10: 00~12: 00",
+				"Thur.8: 00~10: 00",
+				"Mon.14: 00~16: 00",
+				"Wed.14: 00~16: 00",
+				"Thur.14: 00~16: 00",
+				"Mon.16: 00~18: 00",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502203",
+			"tags" : [ "acting", "SQL", "tennis", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D009", "D013" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Thur.14: 00~16: 00",
+				"Fri.18: 30~20: 30",
+				"Sun.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Sat.10: 00~12: 00",
+				"Mon.18: 30~20: 30",
+				"Tues.20: 30~22: 30",
+				"Fri.20: 30~22: 30",
+				"Sun.18: 30~20: 30"
+			],
+			"student_no" : "031502204",
+			"tags" : [ "collect", "swimming", "basketball", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D005", "D015" ],
+			"free_time" : 
+			[
+				"Thur.10: 00~12: 00",
+				"Tues.18: 30~20: 30",
+				"Tues.8: 00~10: 00",
+				"Tues.10: 00~12: 00"
+			],
+			"student_no" : "031502205",
+			"tags" : [ "travel", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D009", "D001", "D019" ],
+			"free_time" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Wed.8: 00~10: 00",
+				"Thur.8: 00~10: 00",
+				"Thur.16: 00~18: 00",
+				"Mon.10: 00~12: 00"
+			],
+			"student_no" : "031502206",
+			"tags" : [ "acting", "painting" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D019", "D005", "D001" ],
+			"free_time" : 
+			[
+				"Sun.20: 30~22: 30",
+				"Fri.8: 00~10: 00",
+				"Sat.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Sat.10: 00~12: 00"
+			],
+			"student_no" : "031502207",
+			"tags" : [ "Linux", "PS", "swimming", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D019", "D005" ],
+			"free_time" : 
+			[
+				"Sat.8: 00~10: 00",
+				"Mon.20: 30~22: 30",
+				"Sat.20: 30~22: 30",
+				"Tues.8: 00~10: 00",
+				"Fri.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Mon.10: 00~12: 00"
+			],
+			"student_no" : "031502208",
+			"tags" : [ "singing", "basketball", "reading", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D007" ],
+			"free_time" : 
+			[
+				"Wed.16: 00~18: 00",
+				"Tues.14: 00~16: 00",
+				"Wed.8: 00~10: 00",
+				"Sun.8: 00~10: 00",
+				"Tues.8: 00~10: 00",
+				"Sun.14: 00~16: 00",
+				"Thur.14: 00~16: 00"
+			],
+			"student_no" : "031502209",
+			"tags" : [ "tennis", "PS", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D003", "D015", "D013" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Fri.8: 00~10: 00",
+				"Mon.8: 00~10: 00",
+				"Tues.10: 00~12: 00",
+				"Sun.10: 00~12: 00",
+				"Tues.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Fri.18: 30~20: 30"
+			],
+			"student_no" : "031502210",
+			"tags" : [ "collect", "fishing", "painting", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D013", "D011", "D005" ],
+			"free_time" : 
+			[
+				"Fri.20: 30~22: 30",
+				"Wed.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Mon.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Thur.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Wed.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Sun.16: 00~18: 00"
+			],
+			"student_no" : "031502211",
+			"tags" : [ "tennis", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D005", "D015" ],
+			"free_time" : 
+			[
+				"Tues.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Fri.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Wed.14: 00~16: 00",
+				"Fri.10: 00~12: 00",
+				"Sun.20: 30~22: 30",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502212",
+			"tags" : [ "reading", "pingpong", "Android", "swimming", "SQL" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D003", "D017", "D011" ],
+			"free_time" : 
+			[
+				"Mon.14: 00~16: 00",
+				"Mon.16: 00~18: 00",
+				"Wed.20: 30~22: 30",
+				"Thur.8: 00~10: 00",
+				"Sun.14: 00~16: 00",
+				"Wed.8: 00~10: 00"
+			],
+			"student_no" : "031502213",
+			"tags" : [ "iOS", "SQL", "pingpong", ".net", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D019" ],
+			"free_time" : 
+			[
+				"Sat.10: 00~12: 00",
+				"Tues.18: 30~20: 30",
+				"Mon.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Fri.16: 00~18: 00",
+				"Sat.8: 00~10: 00",
+				"Thur.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Sun.8: 00~10: 00",
+				"Fri.20: 30~22: 30"
+			],
+			"student_no" : "031502214",
+			"tags" : [ "PS", "iOS", "reading", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D019", "D017" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Fri.18: 30~20: 30",
+				"Sat.8: 00~10: 00",
+				"Sat.18: 30~20: 30",
+				"Tues.20: 30~22: 30",
+				"Sun.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Tues.14: 00~16: 00"
+			],
+			"student_no" : "031502215",
+			"tags" : [ "climbing", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D015", "D011" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Mon.18: 30~20: 30",
+				"Mon.14: 00~16: 00",
+				"Sat.10: 00~12: 00",
+				"Tues.18: 30~20: 30",
+				"Wed.20: 30~22: 30",
+				"Sun.8: 00~10: 00",
+				"Fri.20: 30~22: 30"
+			],
+			"student_no" : "031502216",
+			"tags" : [ "travel", "basketball", "Java", "fishing", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D001", "D005" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Wed.10: 00~12: 00",
+				"Sat.18: 30~20: 30",
+				"Sun.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Sat.20: 30~22: 30",
+				"Sat.16: 00~18: 00",
+				"Fri.8: 00~10: 00"
+			],
+			"student_no" : "031502217",
+			"tags" : [ "movies", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D011", "D001", "D019" ],
+			"free_time" : 
+			[
+				"Fri.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Sat.18: 30~20: 30",
+				"Fri.18: 30~20: 30",
+				"Sun.10: 00~12: 00"
+			],
+			"student_no" : "031502218",
+			"tags" : [ "Java", "soccer", ".net", "painting", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D019", "D006" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Sat.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Tues.18: 30~20: 30",
+				"Tues.8: 00~10: 00",
+				"Thur.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Tues.14: 00~16: 00"
+			],
+			"student_no" : "031502219",
+			"tags" : [ "pingpong", "travel", "painting", "iOS" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D001" ],
+			"free_time" : 
+			[
+				"Sun.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Mon.18: 30~20: 30",
+				"Wed.18: 30~20: 30",
+				"Sun.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Tues.16: 00~18: 00",
+				"Fri.14: 00~16: 00"
+			],
+			"student_no" : "031502220",
+			"tags" : [ "fishing", "PS", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D013", "D007", "D016" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Fri.20: 30~22: 30",
+				"Sat.8: 00~10: 00",
+				"Sun.20: 30~22: 30",
+				"Tues.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Sat.20: 30~22: 30",
+				"Wed.10: 00~12: 00"
+			],
+			"student_no" : "031502221",
+			"tags" : [ "Java", "acting", "climbing", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D009" ],
+			"free_time" : 
+			[
+				"Tues.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Mon.18: 30~20: 30",
+				"Tues.14: 00~16: 00",
+				"Sun.8: 00~10: 00",
+				"Thur.10: 00~12: 00"
+			],
+			"student_no" : "031502222",
+			"tags" : [ "Android", "Java", "acting", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D009" ],
+			"free_time" : [ "Fri.20: 30~22: 30", "Fri.18: 30~20: 30" ],
+			"student_no" : "031502223",
+			"tags" : [ "singing", "climbing", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D015", "D003" ],
+			"free_time" : [ "Fri.8: 00~10: 00", "Tues.16: 00~18: 00", "Wed.16: 00~18: 00" ],
+			"student_no" : "031502224",
+			"tags" : [ "Linux", "movies", "iOS" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D007", "D009", "D012" ],
+			"free_time" : 
+			[
+				"Thur.18: 30~20: 30",
+				"Sat.8: 00~10: 00",
+				"Sun.18: 30~20: 30",
+				"Wed.16: 00~18: 00",
+				"Wed.20: 30~22: 30"
+			],
+			"student_no" : "031502225",
+			"tags" : [ "swimming", "Web", "collect", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D017", "D005" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Tues.8: 00~10: 00",
+				"Fri.8: 00~10: 00",
+				"Sun.8: 00~10: 00",
+				"Mon.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Wed.16: 00~18: 00",
+				"Tues.10: 00~12: 00",
+				"Sat.14: 00~16: 00",
+				"Sat.20: 30~22: 30",
+				"Sat.10: 00~12: 00"
+			],
+			"student_no" : "031502226",
+			"tags" : [ "collect", "tennis", "PS", "acting", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D001", "D011" ],
+			"free_time" : 
+			[
+				"Tues.14: 00~16: 00",
+				"Fri.14: 00~16: 00",
+				"Thur.8: 00~10: 00",
+				"Tues.10: 00~12: 00",
+				"Wed.18: 30~20: 30"
+			],
+			"student_no" : "031502227",
+			"tags" : [ "singing", "swimming", ".net", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D017", "D015" ],
+			"free_time" : 
+			[
+				"Sun.8: 00~10: 00",
+				"Thur.16: 00~18: 00",
+				"Thur.14: 00~16: 00",
+				"Fri.8: 00~10: 00",
+				"Wed.10: 00~12: 00",
+				"Tues.18: 30~20: 30",
+				"Sun.18: 30~20: 30",
+				"Tues.8: 00~10: 00"
+			],
+			"student_no" : "031502228",
+			"tags" : [ "Web", "movies", "pingpong", "singing", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D017", "D000" ],
+			"free_time" : 
+			[
+				"Fri.18: 30~20: 30",
+				"Sun.10: 00~12: 00",
+				"Sat.14: 00~16: 00",
+				"Wed.20: 30~22: 30",
+				"Thur.16: 00~18: 00",
+				"Tues.18: 30~20: 30",
+				"Tues.16: 00~18: 00",
+				"Fri.20: 30~22: 30"
+			],
+			"student_no" : "031502229",
+			"tags" : [ "Java", "basketball", "pingpong", "singing", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D015", "D019", "D009" ],
+			"free_time" : 
+			[
+				"Fri.14: 00~16: 00",
+				"Sat.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Wed.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Sat.18: 30~20: 30"
+			],
+			"student_no" : "031502230",
+			"tags" : [ "acting", "singing", "Linux", "reading", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D019", "D005" ],
+			"free_time" : 
+			[
+				"Sat.10: 00~12: 00",
+				"Fri.18: 30~20: 30",
+				"Mon.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Wed.14: 00~16: 00",
+				"Tues.8: 00~10: 00",
+				"Sat.18: 30~20: 30",
+				"Fri.14: 00~16: 00"
+			],
+			"student_no" : "031502231",
+			"tags" : [ "swimming", "Android", "singing", "soccer" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D003", "D001", "D000" ],
+			"free_time" : 
+			[
+				"Mon.14: 00~16: 00",
+				"Wed.18: 30~20: 30",
+				"Wed.10: 00~12: 00",
+				"Sun.16: 00~18: 00",
+				"Thur.16: 00~18: 00",
+				"Mon.10: 00~12: 00",
+				"Sat.16: 00~18: 00",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502232",
+			"tags" : [ "Java", "running", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D011", "D017" ],
+			"free_time" : 
+			[
+				"Fri.18: 30~20: 30",
+				"Sun.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Mon.16: 00~18: 00"
+			],
+			"student_no" : "031502233",
+			"tags" : [ "Android", "Web", "tennis", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D019", "D003", "D009" ],
+			"free_time" : 
+			[
+				"Fri.20: 30~22: 30",
+				"Wed.10: 00~12: 00",
+				"Tues.18: 30~20: 30",
+				"Mon.8: 00~10: 00",
+				"Sat.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502234",
+			"tags" : [ "Java", "painting", "swimming", "SQL", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D009" ],
+			"free_time" : 
+			[
+				"Fri.20: 30~22: 30",
+				"Wed.14: 00~16: 00",
+				"Sat.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Wed.10: 00~12: 00",
+				"Fri.14: 00~16: 00",
+				"Tues.18: 30~20: 30"
+			],
+			"student_no" : "031502235",
+			"tags" : [ "basketball", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D013", "D003", "D017" ],
+			"free_time" : [ "Fri.16: 00~18: 00", "Sun.10: 00~12: 00", "Tues.8: 00~10: 00" ],
+			"student_no" : "031502236",
+			"tags" : [ "singing", "tennis", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D007" ],
+			"free_time" : 
+			[
+				"Sun.20: 30~22: 30",
+				"Sun.10: 00~12: 00",
+				"Wed.10: 00~12: 00",
+				"Tues.18: 30~20: 30",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502237",
+			"tags" : [ "collect", "singing", "fishing", "tennis", "iOS" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D001" ],
+			"free_time" : 
+			[
+				"Wed.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Thur.20: 30~22: 30",
+				"Mon.18: 30~20: 30",
+				"Tues.8: 00~10: 00",
+				"Mon.8: 00~10: 00",
+				"Sat.10: 00~12: 00"
+			],
+			"student_no" : "031502238",
+			"tags" : [ "painting", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D018", "D017" ],
+			"free_time" : 
+			[
+				"Sun.20: 30~22: 30",
+				"Wed.20: 30~22: 30",
+				"Mon.18: 30~20: 30",
+				"Sun.18: 30~20: 30"
+			],
+			"student_no" : "031502239",
+			"tags" : [ "Android", "running", "Linux", "movies", "soccer" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D003", "D009", "D012" ],
+			"free_time" : 
+			[
+				"Mon.8: 00~10: 00",
+				"Wed.14: 00~16: 00",
+				"Sun.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Fri.16: 00~18: 00",
+				"Thur.16: 00~18: 00",
+				"Sat.8: 00~10: 00",
+				"Tues.16: 00~18: 00"
+			],
+			"student_no" : "031502240",
+			"tags" : [ "SQL", "Android", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D013", "D001" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Thur.8: 00~10: 00",
+				"Sat.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Sun.14: 00~16: 00",
+				"Wed.8: 00~10: 00",
+				"Mon.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Sat.8: 00~10: 00"
+			],
+			"student_no" : "031502241",
+			"tags" : [ "acting", "Android", "swimming", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D006", "D011" ],
+			"free_time" : 
+			[
+				"Tues.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Tues.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Sun.8: 00~10: 00",
+				"Sat.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Thur.8: 00~10: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502242",
+			"tags" : [ "Java", "travel", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D007", "D003", "D012" ],
+			"free_time" : 
+			[
+				"Mon.10: 00~12: 00",
+				"Sun.8: 00~10: 00",
+				"Tues.8: 00~10: 00",
+				"Thur.20: 30~22: 30",
+				"Tues.14: 00~16: 00",
+				"Fri.16: 00~18: 00",
+				"Mon.18: 30~20: 30",
+				"Sun.16: 00~18: 00"
+			],
+			"student_no" : "031502243",
+			"tags" : [ "acting", ".net", "SQL", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D003" ],
+			"free_time" : 
+			[
+				"Thur.14: 00~16: 00",
+				"Wed.20: 30~22: 30",
+				"Wed.16: 00~18: 00",
+				"Fri.16: 00~18: 00",
+				"Fri.20: 30~22: 30",
+				"Tues.20: 30~22: 30",
+				"Sun.14: 00~16: 00"
+			],
+			"student_no" : "031502244",
+			"tags" : [ "running", "painting", "singing", "dancing", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D009", "D003", "D019" ],
+			"free_time" : 
+			[
+				"Fri.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Mon.8: 00~10: 00",
+				"Tues.10: 00~12: 00",
+				"Sun.14: 00~16: 00",
+				"Sat.16: 00~18: 00",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502245",
+			"tags" : [ "pingpong", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D015", "D014" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Mon.18: 30~20: 30",
+				"Thur.10: 00~12: 00",
+				"Fri.16: 00~18: 00",
+				"Sat.14: 00~16: 00",
+				"Mon.16: 00~18: 00",
+				"Thur.8: 00~10: 00"
+			],
+			"student_no" : "031502246",
+			"tags" : [ "soccer", "swimming", "Java", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D009", "D003" ],
+			"free_time" : [ "Thur.14: 00~16: 00", "Tues.14: 00~16: 00", "Mon.8: 00~10: 00" ],
+			"student_no" : "031502247",
+			"tags" : [ "fishing", "singing", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D015", "D001", "D000" ],
+			"free_time" : 
+			[
+				"Thur.18: 30~20: 30",
+				"Tues.18: 30~20: 30",
+				"Fri.8: 00~10: 00",
+				"Wed.16: 00~18: 00",
+				"Tues.8: 00~10: 00"
+			],
+			"student_no" : "031502248",
+			"tags" : [ "acting", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D015" ],
+			"free_time" : [ "Mon.20: 30~22: 30", "Sun.16: 00~18: 00", "Mon.8: 00~10: 00" ],
+			"student_no" : "031502249",
+			"tags" : [ "Linux", "Web", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D017", "D015", "D019" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Sat.18: 30~20: 30",
+				"Sat.16: 00~18: 00",
+				"Mon.16: 00~18: 00",
+				"Tues.14: 00~16: 00",
+				"Tues.20: 30~22: 30",
+				"Sat.20: 30~22: 30",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502250",
+			"tags" : [ "Web", "swimming", "painting", "soccer" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D003", "D001", "D013" ],
+			"free_time" : 
+			[
+				"Tues.14: 00~16: 00",
+				"Thur.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Mon.18: 30~20: 30",
+				"Fri.14: 00~16: 00"
+			],
+			"student_no" : "031502251",
+			"tags" : [ "running", "dancing", "basketball", "soccer", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D019", "D013" ],
+			"free_time" : 
+			[
+				"Tues.16: 00~18: 00",
+				"Thur.14: 00~16: 00",
+				"Fri.16: 00~18: 00",
+				"Tues.20: 30~22: 30",
+				"Wed.16: 00~18: 00",
+				"Wed.14: 00~16: 00",
+				"Sat.10: 00~12: 00"
+			],
+			"student_no" : "031502252",
+			"tags" : [ "swimming", "singing", "Java" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D001" ],
+			"free_time" : 
+			[
+				"Wed.14: 00~16: 00",
+				"Sun.10: 00~12: 00",
+				"Mon.18: 30~20: 30",
+				"Tues.14: 00~16: 00",
+				"Wed.10: 00~12: 00",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502253",
+			"tags" : [ "movies", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D011", "D017" ],
+			"free_time" : 
+			[
+				"Mon.20: 30~22: 30",
+				"Thur.20: 30~22: 30",
+				"Sat.20: 30~22: 30",
+				"Mon.16: 00~18: 00",
+				"Mon.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Tues.20: 30~22: 30",
+				"Tues.16: 00~18: 00",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502254",
+			"tags" : [ "painting", "Java", "iOS", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D017", "D015", "D013" ],
+			"free_time" : 
+			[
+				"Mon.8: 00~10: 00",
+				"Sun.20: 30~22: 30",
+				"Sun.14: 00~16: 00",
+				"Fri.20: 30~22: 30",
+				"Sun.10: 00~12: 00",
+				"Wed.16: 00~18: 00",
+				"Wed.14: 00~16: 00"
+			],
+			"student_no" : "031502255",
+			"tags" : [ "dancing", "SQL", "collect", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D003" ],
+			"free_time" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Sat.8: 00~10: 00",
+				"Mon.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Wed.8: 00~10: 00",
+				"Fri.8: 00~10: 00"
+			],
+			"student_no" : "031502256",
+			"tags" : [ "basketball", "collect" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D009", "D005", "D011" ],
+			"free_time" : [ "Tues.18: 30~20: 30", "Sun.10: 00~12: 00" ],
+			"student_no" : "031502257",
+			"tags" : [ "fishing", "Java", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D007", "D008" ],
+			"free_time" : 
+			[
+				"Thur.20: 30~22: 30",
+				"Sat.20: 30~22: 30",
+				"Thur.8: 00~10: 00",
+				"Sun.18: 30~20: 30",
+				"Sat.8: 00~10: 00",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502258",
+			"tags" : [ "tennis", "Linux", "pingpong", "Web" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D013", "D009" ],
+			"free_time" : 
+			[
+				"Wed.20: 30~22: 30",
+				"Wed.8: 00~10: 00",
+				"Sat.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Sat.16: 00~18: 00",
+				"Thur.20: 30~22: 30",
+				"Thur.8: 00~10: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502259",
+			"tags" : [ "dancing", "climbing", ".net", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D003", "D018", "D007" ],
+			"free_time" : 
+			[
+				"Wed.18: 30~20: 30",
+				"Thur.14: 00~16: 00",
+				"Tues.10: 00~12: 00",
+				"Tues.8: 00~10: 00",
+				"Mon.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Tues.14: 00~16: 00",
+				"Sat.18: 30~20: 30"
+			],
+			"student_no" : "031502260",
+			"tags" : [ "PS", "iOS", "pingpong", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D001", "D013", "D011" ],
+			"free_time" : 
+			[
+				"Mon.18: 30~20: 30",
+				"Sun.10: 00~12: 00",
+				"Thur.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Wed.18: 30~20: 30"
+			],
+			"student_no" : "031502261",
+			"tags" : [ "swimming", "singing", "tennis" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D019" ],
+			"free_time" : 
+			[
+				"Tues.16: 00~18: 00",
+				"Fri.14: 00~16: 00",
+				"Sun.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Sat.18: 30~20: 30",
+				"Sun.14: 00~16: 00"
+			],
+			"student_no" : "031502262",
+			"tags" : [ "swimming", "PS", "movies", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D011", "D013", "D007" ],
+			"free_time" : 
+			[
+				"Mon.18: 30~20: 30",
+				"Wed.14: 00~16: 00",
+				"Thur.8: 00~10: 00",
+				"Thur.16: 00~18: 00",
+				"Wed.8: 00~10: 00",
+				"Wed.20: 30~22: 30",
+				"Sun.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Sat.14: 00~16: 00"
+			],
+			"student_no" : "031502263",
+			"tags" : [ "Android", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D019", "D007", "D015" ],
+			"free_time" : 
+			[
+				"Fri.8: 00~10: 00",
+				"Fri.14: 00~16: 00",
+				"Fri.20: 30~22: 30",
+				"Thur.20: 30~22: 30",
+				"Wed.8: 00~10: 00",
+				"Thur.10: 00~12: 00",
+				"Sun.10: 00~12: 00",
+				"Tues.18: 30~20: 30",
+				"Sun.20: 30~22: 30"
+			],
+			"student_no" : "031502264",
+			"tags" : [ "pingpong", "PS", "SQL", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D017", "D015" ],
+			"free_time" : 
+			[
+				"Wed.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Sat.14: 00~16: 00",
+				"Sun.16: 00~18: 00",
+				"Sun.18: 30~20: 30",
+				"Mon.10: 00~12: 00",
+				"Wed.8: 00~10: 00",
+				"Tues.16: 00~18: 00",
+				"Sun.10: 00~12: 00"
+			],
+			"student_no" : "031502265",
+			"tags" : [ "Web", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D009", "D013", "D012" ],
+			"free_time" : 
+			[
+				"Sun.18: 30~20: 30",
+				"Fri.20: 30~22: 30",
+				"Sat.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Mon.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Wed.18: 30~20: 30",
+				"Sun.10: 00~12: 00",
+				"Sun.8: 00~10: 00"
+			],
+			"student_no" : "031502266",
+			"tags" : [ "reading", "running", "Linux", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D017", "D000" ],
+			"free_time" : [ "Thur.20: 30~22: 30", "Mon.14: 00~16: 00" ],
+			"student_no" : "031502267",
+			"tags" : [ "fishing", "acting", "SQL", "tennis", "reading" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D003", "D005" ],
+			"free_time" : 
+			[
+				"Mon.16: 00~18: 00",
+				"Sat.16: 00~18: 00",
+				"Tues.16: 00~18: 00",
+				"Fri.14: 00~16: 00",
+				"Wed.16: 00~18: 00",
+				"Sun.20: 30~22: 30",
+				"Wed.18: 30~20: 30"
+			],
+			"student_no" : "031502268",
+			"tags" : [ "reading", "tennis", "travel", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D015", "D003" ],
+			"free_time" : 
+			[
+				"Fri.18: 30~20: 30",
+				"Tues.18: 30~20: 30",
+				"Tues.20: 30~22: 30",
+				"Fri.10: 00~12: 00",
+				"Wed.14: 00~16: 00",
+				"Tues.14: 00~16: 00",
+				"Tues.8: 00~10: 00",
+				"Sat.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Thur.20: 30~22: 30"
+			],
+			"student_no" : "031502269",
+			"tags" : [ "tennis", "PS", "iOS", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D005" ],
+			"free_time" : 
+			[
+				"Fri.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Tues.8: 00~10: 00",
+				"Fri.10: 00~12: 00",
+				"Sat.14: 00~16: 00",
+				"Mon.14: 00~16: 00",
+				"Thur.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Wed.16: 00~18: 00"
+			],
+			"student_no" : "031502270",
+			"tags" : [ "reading", "iOS", "acting", "PS", "climbing" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D009", "D007", "D015" ],
+			"free_time" : 
+			[
+				"Thur.16: 00~18: 00",
+				"Tues.8: 00~10: 00",
+				"Mon.16: 00~18: 00",
+				"Fri.18: 30~20: 30",
+				"Sat.14: 00~16: 00",
+				"Fri.8: 00~10: 00",
+				"Fri.10: 00~12: 00",
+				"Thur.20: 30~22: 30",
+				"Fri.16: 00~18: 00",
+				"Tues.20: 30~22: 30"
+			],
+			"student_no" : "031502271",
+			"tags" : [ "running", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D003", "D000", "D004" ],
+			"free_time" : 
+			[
+				"Fri.16: 00~18: 00",
+				"Fri.8: 00~10: 00",
+				"Sat.20: 30~22: 30",
+				"Mon.18: 30~20: 30",
+				"Mon.16: 00~18: 00",
+				"Sun.20: 30~22: 30",
+				"Wed.20: 30~22: 30",
+				"Thur.10: 00~12: 00",
+				"Sun.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502272",
+			"tags" : [ "Linux", "acting", "tennis", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D001", "D003", "D011" ],
+			"free_time" : 
+			[
+				"Wed.16: 00~18: 00",
+				"Sun.10: 00~12: 00",
+				"Tues.16: 00~18: 00",
+				"Wed.10: 00~12: 00"
+			],
+			"student_no" : "031502273",
+			"tags" : [ "SQL", "Linux", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D007", "D005", "D019" ],
+			"free_time" : 
+			[
+				"Thur.20: 30~22: 30",
+				"Mon.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Fri.10: 00~12: 00",
+				"Mon.20: 30~22: 30",
+				"Tues.8: 00~10: 00",
+				"Tues.14: 00~16: 00",
+				"Sat.16: 00~18: 00",
+				"Thur.10: 00~12: 00"
+			],
+			"student_no" : "031502274",
+			"tags" : [ "PS", "collect", "singing" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D019" ],
+			"free_time" : [ "Mon.18: 30~20: 30", "Tues.14: 00~16: 00", "Wed.20: 30~22: 30" ],
+			"student_no" : "031502275",
+			"tags" : [ "movies", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D015", "D011" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Wed.20: 30~22: 30",
+				"Thur.14: 00~16: 00",
+				"Fri.18: 30~20: 30"
+			],
+			"student_no" : "031502276",
+			"tags" : [ "SQL", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D013", "D011" ],
+			"free_time" : [ "Sun.16: 00~18: 00", "Wed.16: 00~18: 00" ],
+			"student_no" : "031502277",
+			"tags" : [ "Web", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D019", "D013", "D001" ],
+			"free_time" : 
+			[
+				"Sat.8: 00~10: 00",
+				"Thur.10: 00~12: 00",
+				"Fri.8: 00~10: 00",
+				"Sun.16: 00~18: 00",
+				"Sun.8: 00~10: 00",
+				"Fri.16: 00~18: 00"
+			],
+			"student_no" : "031502278",
+			"tags" : [ "soccer", ".net", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D019", "D003", "D013" ],
+			"free_time" : [ "Wed.10: 00~12: 00", "Fri.10: 00~12: 00" ],
+			"student_no" : "031502279",
+			"tags" : [ "travel", "running", "Android" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D007", "D003", "D000" ],
+			"free_time" : 
+			[
+				"Sat.10: 00~12: 00",
+				"Sun.16: 00~18: 00",
+				"Fri.20: 30~22: 30",
+				"Sun.18: 30~20: 30",
+				"Thur.10: 00~12: 00",
+				"Tues.8: 00~10: 00",
+				"Mon.14: 00~16: 00",
+				"Mon.20: 30~22: 30",
+				"Sun.10: 00~12: 00"
+			],
+			"student_no" : "031502280",
+			"tags" : [ "collect", "dancing", "Linux", "acting" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D019" ],
+			"free_time" : 
+			[
+				"Wed.10: 00~12: 00",
+				"Sat.8: 00~10: 00",
+				"Thur.16: 00~18: 00",
+				"Thur.18: 30~20: 30",
+				"Mon.16: 00~18: 00",
+				"Thur.20: 30~22: 30",
+				"Wed.16: 00~18: 00",
+				"Mon.14: 00~16: 00",
+				"Tues.14: 00~16: 00"
+			],
+			"student_no" : "031502281",
+			"tags" : [ "Web", "basketball", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D001", "D003" ],
+			"free_time" : 
+			[
+				"Mon.18: 30~20: 30",
+				"Sat.8: 00~10: 00",
+				"Wed.16: 00~18: 00",
+				"Sat.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Tues.14: 00~16: 00",
+				"Thur.10: 00~12: 00",
+				"Sun.16: 00~18: 00"
+			],
+			"student_no" : "031502282",
+			"tags" : [ "singing", "PS", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D001", "D007" ],
+			"free_time" : 
+			[
+				"Sun.14: 00~16: 00",
+				"Tues.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Tues.14: 00~16: 00",
+				"Sat.16: 00~18: 00",
+				"Wed.20: 30~22: 30",
+				"Tues.16: 00~18: 00",
+				"Sun.16: 00~18: 00",
+				"Mon.10: 00~12: 00"
+			],
+			"student_no" : "031502283",
+			"tags" : [ "dancing", "singing", "PS", "soccer", "Linux" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D013", "D005", "D019" ],
+			"free_time" : [ "Mon.10: 00~12: 00", "Tues.10: 00~12: 00", "Sun.8: 00~10: 00" ],
+			"student_no" : "031502284",
+			"tags" : [ "iOS", "SQL", "swimming", "running" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D005", "D009" ],
+			"free_time" : 
+			[
+				"Thur.10: 00~12: 00",
+				"Tues.10: 00~12: 00",
+				"Fri.20: 30~22: 30",
+				"Tues.14: 00~16: 00"
+			],
+			"student_no" : "031502285",
+			"tags" : [ "reading", "basketball" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D005" ],
+			"free_time" : [ "Sat.16: 00~18: 00", "Fri.18: 30~20: 30", "Sun.16: 00~18: 00" ],
+			"student_no" : "031502286",
+			"tags" : [ "movies", "acting", "dancing" ]
+		},
+		
+		{
+			"applications_department" : [ "D011", "D003" ],
+			"free_time" : 
+			[
+				"Wed.18: 30~20: 30",
+				"Sun.18: 30~20: 30",
+				"Mon.10: 00~12: 00",
+				"Sat.18: 30~20: 30",
+				"Sun.14: 00~16: 00",
+				"Fri.10: 00~12: 00"
+			],
+			"student_no" : "031502287",
+			"tags" : [ "PS", "acting", "tennis", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D019", "D003", "D001" ],
+			"free_time" : 
+			[
+				"Sat.18: 30~20: 30",
+				"Sat.16: 00~18: 00",
+				"Fri.10: 00~12: 00",
+				"Wed.20: 30~22: 30",
+				"Sun.16: 00~18: 00",
+				"Thur.10: 00~12: 00",
+				"Wed.18: 30~20: 30",
+				"Mon.10: 00~12: 00"
+			],
+			"student_no" : "031502288",
+			"tags" : [ ".net", "collect", "Web", "travel" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D017", "D007" ],
+			"free_time" : 
+			[
+				"Sat.16: 00~18: 00",
+				"Sat.10: 00~12: 00",
+				"Mon.16: 00~18: 00",
+				"Sun.20: 30~22: 30",
+				"Tues.10: 00~12: 00",
+				"Thur.16: 00~18: 00",
+				"Wed.10: 00~12: 00",
+				"Thur.10: 00~12: 00"
+			],
+			"student_no" : "031502289",
+			"tags" : [ "reading", "painting", "soccer", "Android", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D002", "D009", "D007" ],
+			"free_time" : 
+			[
+				"Sat.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Fri.16: 00~18: 00",
+				"Wed.18: 30~20: 30"
+			],
+			"student_no" : "031502290",
+			"tags" : [ "SQL", "Java", "singing", "swimming" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D015" ],
+			"free_time" : 
+			[
+				"Sun.10: 00~12: 00",
+				"Sun.14: 00~16: 00",
+				"Sun.20: 30~22: 30",
+				"Sun.8: 00~10: 00"
+			],
+			"student_no" : "031502291",
+			"tags" : [ "basketball", "SQL", "iOS", "fishing" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D017" ],
+			"free_time" : 
+			[
+				"Fri.8: 00~10: 00",
+				"Thur.20: 30~22: 30",
+				"Tues.8: 00~10: 00",
+				"Fri.14: 00~16: 00"
+			],
+			"student_no" : "031502292",
+			"tags" : [ "SQL", "collect", ".net", "basketball", "PS" ]
+		},
+		
+		{
+			"applications_department" : [ "D009", "D000", "D011" ],
+			"free_time" : [ "Sat.20: 30~22: 30", "Sat.14: 00~16: 00", "Tues.20: 30~22: 30" ],
+			"student_no" : "031502293",
+			"tags" : [ "movies", "swimming", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D003", "D001" ],
+			"free_time" : [ "Wed.8: 00~10: 00", "Wed.20: 30~22: 30" ],
+			"student_no" : "031502294",
+			"tags" : [ "Web", "climbing", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D013", "D001", "D011", "D019" ],
+			"free_time" : 
+			[
+				"Mon.18: 30~20: 30",
+				"Sat.18: 30~20: 30",
+				"Thur.10: 00~12: 00",
+				"Fri.20: 30~22: 30",
+				"Sun.14: 00~16: 00",
+				"Tues.18: 30~20: 30",
+				"Sun.10: 00~12: 00",
+				"Fri.10: 00~12: 00",
+				"Wed.16: 00~18: 00"
+			],
+			"student_no" : "031502295",
+			"tags" : [ "fishing", "tennis", "PS", ".net" ]
+		},
+		
+		{
+			"applications_department" : [ "D019", "D001", "D013", "D003" ],
+			"free_time" : 
+			[
+				"Tues.18: 30~20: 30",
+				"Fri.8: 00~10: 00",
+				"Sun.8: 00~10: 00",
+				"Thur.20: 30~22: 30"
+			],
+			"student_no" : "031502296",
+			"tags" : [ "movies", "climbing", "iOS" ]
+		},
+		
+		{
+			"applications_department" : [ "D005", "D007", "D012" ],
+			"free_time" : 
+			[
+				"Sun.16: 00~18: 00",
+				"Sat.10: 00~12: 00",
+				"Sat.20: 30~22: 30",
+				"Mon.10: 00~12: 00",
+				"Mon.8: 00~10: 00",
+				"Tues.10: 00~12: 00",
+				"Sat.16: 00~18: 00"
+			],
+			"student_no" : "031502297",
+			"tags" : [ ".net", "Web", "pingpong" ]
+		},
+		
+		{
+			"applications_department" : [ "D015", "D019" ],
+			"free_time" : 
+			[
+				"Tues.20: 30~22: 30",
+				"Tues.16: 00~18: 00",
+				"Wed.8: 00~10: 00",
+				"Mon.8: 00~10: 00"
+			],
+			"student_no" : "031502298",
+			"tags" : [ "fishing", "Java", "Android", "dancing", "movies" ]
+		},
+		
+		{
+			"applications_department" : [ "D007", "D017", "D009" ],
+			"free_time" : [ "Sun.8: 00~10: 00", "Sat.14: 00~16: 00", "Fri.20: 30~22: 30" ],
+			"student_no" : "031502299",
+			"tags" : [ "SQL", "reading", "tennis", "acting" ]
+		}
+	]
+}
+
