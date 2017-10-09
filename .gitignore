@@ -9,3 +9,7 @@ packages
 sudoku/Debug
 sudoku/Release
 # /sudoku/sudoku/sudoku.txt
+
+# Match
+Match/Debug
+Match/Release

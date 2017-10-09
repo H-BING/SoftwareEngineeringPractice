@@ -3,12 +3,17 @@
 #include "Constant.h"
 #include <stdlib.h>
 #include <time.h>
-
+#include <string>
+#include<iostream>
+#include <cstring>
 using namespace std;
 using namespace Json;
 
-/*
+
 void createData::print() {
+	
+	
+	
 	srand((unsigned)time(NULL));
 	int vis[3][9];
 	Value root;
@@ -21,9 +26,9 @@ void createData::print() {
 	for (int i = 0;i < 20;++i) {
 		Value temp_dep;
 		string dno_tmp = dno;
-		if (i < 10) dno_tmp += "0";
-		dno_tmp += "" + i;
-		temp_dep[Dno] = dno;
+		dno_tmp += i / 10+'0';
+		dno_tmp += i % 10 + '0';
+		temp_dep[Dno] = dno_tmp;
 
 		int t = (rand() % 5)+10;
 		temp_dep[Dnum] = t;
@@ -46,7 +51,7 @@ void createData::print() {
 		}
 
 
-		int t = rand() % 3;
+		t = rand() % 3;
 		memset(ff, 0, sizeof ff);
 		string tagtmp = "";
 		for (int i = 0;i < r;++i) {
@@ -72,10 +77,12 @@ void createData::print() {
 	for (int i = 0;i < 300;i++) {
 		Value temp_stu;
 		string sno_tmp=sno;
-		if (i < 10) sno_tmp += "0";
-		if (i < 100) sno_tmp += "0";
-		sno_tmp += "" + i;
-		temp_stu[Sno] = sno;
+		sno_tmp += i / 100 + '0';
+		sno_tmp += (i / 10)%10 + '0';
+		sno_tmp += i %10 + '0';
+		
+		
+		temp_stu[Sno] = sno_tmp;
 		int r = (rand()+7) % 10;
 		if (r < 2) ++too_small;
 		if (too_small >= 15) {
@@ -97,17 +104,18 @@ void createData::print() {
 			temp_stu[Sfree].append(free_time);
 		}
 
-		string dep = "D0";
+		
 		r = rand() % 5;
 		memset(f, 0, sizeof f);
 		for (int i = 0;i < r;++i) {
+			string dep = "D0";
 			int t = (2 * rand() + 7) % 20;
 			if (f[t]) {
 				t = (3 * rand() + 5) % 20;
 				if (f[t]) continue;
 			}
-			if (t < 10) dep += "0";
-			dep += "" + t;
+			dep += t / 10 + '0';
+			dep += t % 10 + '0';
 			temp_stu[Sdept].append(dep);
 			f[t] = 1;
 		}
@@ -143,4 +151,3 @@ void createData::print() {
 
 	cout << root << endl;
 }
-*/
