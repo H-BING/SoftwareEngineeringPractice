@@ -31,9 +31,9 @@ void enjoySudoku(int n) {
 	sudokuPlayer.enjoySudoku(n);
 }
 
-/**
+/**/
 int main() {
-	enjoySudoku(3);
+	enjoySudoku(1000000);
 	//playSudoku(1);
 
 	// close file
@@ -41,9 +41,9 @@ int main() {
 
 	return 0;
 }
-**/
-
 /**/
+
+/**
 int main(int argc, char* argv[]) {
 
 	SudokuPrinter sudokuPrinter;
@@ -90,4 +90,4 @@ int main(int argc, char* argv[]) {
 
 	return 0;
 }
-/**/
+**/
