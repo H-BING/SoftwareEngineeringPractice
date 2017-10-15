@@ -20,7 +20,7 @@ public:
 	void admitMember(string stu_no, Department &department);
 
 	Timeslot time_solt;
-	void getTimesolt(Department department);
+	void getTimesolt(Department &department);
 	Prework prework;
 private:
 };

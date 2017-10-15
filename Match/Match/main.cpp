@@ -11,30 +11,22 @@
 
 using namespace std;
 using namespace Json;    //jsonµÄÃüÃû¿Õ¼ä
-	
+
 
 Student student[305];
 Department department[25];
 
-/*
-int main() {
-	freopen("./input.txt", "w", stdout);
-	createData inputData;
-	inputData.print();
-	return 0;
-}
-*/
-/*
-*/
 int main()
-{	
+{
+
 	JsonHandler jsonHandler;
 	std::string path = "./input_data.txt";
 	std::string input = jsonHandler.readInputTestFile(path.c_str());
-	
+
 	Json::Reader reader;
 	Json::Value root;
 	freopen("./output_data.txt", "w", stdout);
+
 
 	if (reader.parse(input, root)) {
 		if (!root[Stu].isNull()) {
@@ -44,20 +36,20 @@ int main()
 			jsonHandler.getDateFromJson(root[Dept], department);
 		}
 	}
-	
+
+
 	MatchSolve ms;
 	ms.solve(student, department);
-		
+
 	FastWriter fastWriter;
 
 	Value valueRoot;
 	Value ulStu;
 	Value admt;
 	Value ulDept;
-	int cnt = 0;
+
 	for (int i = 0;i < 300;i++) {
 		if (student[i].admitted_size == 0) {
-			++cnt;
 			ulStu.append(student[i].no);
 		}
 	}
@@ -66,6 +58,7 @@ int main()
 	for (int i = 0;i < 20;i++) {
 		d += department[i].admit_size + department[i].num_limit;
 		if (department[i].admit_size == 0) {
+
 			ulDept.append(department[i].no);
 		}
 		else {
@@ -77,19 +70,32 @@ int main()
 			admt.append(temp_admt);
 		}
 	}
-	
 
-	valueRoot[Pstu]= ulStu;
-	valueRoot[Padmt]= admt;
-	valueRoot[Pdept].append(ulDept);
+
+	valueRoot[Pstu] = ulStu;
+	valueRoot[Padmt] = admt;
+	valueRoot[Pdept] = ulDept;
 
 	cout << valueRoot << endl;
+
 
 	return 0;
 }
 
 
 
+
+
+
+
+/*
+int main() {
+	freopen("xx.out", "w", stdout);
+	createData p;
+	p.print();
+	return 0;
+}
+*/
 
 
 

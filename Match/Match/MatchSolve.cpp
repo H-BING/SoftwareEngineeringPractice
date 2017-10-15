@@ -11,7 +11,6 @@ void MatchSolve::solve(Student(&stu)[305], Department(&dep)[25]) {
 
 void MatchSolve::init(Student(&stu)[305], Department(&dep)[25]) {
 	for (int i = 0;i < stu_size;++i) {
-
 		sort(stu[i].tag, stu[i].tag + stu[i].tag_size);
 		stu[i].tag_size = unique(stu[i].tag, stu[i].tag + stu[i].tag_size) - stu[i].tag;
 		stu[i].getTimeslot(stu[i]);
@@ -31,10 +30,8 @@ void MatchSolve::init(Student(&stu)[305], Department(&dep)[25]) {
 			int now = dep_id[stu[i].department[j]];
 			stu[i].department_id[j] = now;
 			stu[i].tag_match[j] = stu[i].getTagMatch(dep[now].tag_size, dep[now].tag);
-			//Prework::tag_match_check(stu[i].tag_size, stu[i].tag, );
 		}
 	}
-	
 
 }
 
@@ -55,8 +52,6 @@ void MatchSolve::generateValue(int round, Student(&stu)[305], Department(&dep)[2
 
 void MatchSolve::Matchsolve(int round, Student(&stu)[305], Department(&dep)[25]) {
 	for (int i = 1;i <= round;++i) {
-		//
-		//de(i);
 		singleMatchSolve(i, stu, dep);
 	}
 }
@@ -64,16 +59,12 @@ void MatchSolve::Matchsolve(int round, Student(&stu)[305], Department(&dep)[25])
 void MatchSolve::singleMatchInit(int round, Student(&stu)[305], Department(&dep)[25]) {
 	//重新判断每个学生还能匹配的部门数量
 	
-	
-	//de("------------------------------------");
-	//cout << round << endl;
 	for (int i = 0;i < stu_size;++i) {
 		
 		if (stu[i].dept_size < round) {
 			stu[i].round_dep = INF;
 			continue;
 		}
-		
 		
 		int tmp = stu[i].department_id[round - 1];
 		if (!dep[tmp].getNumLimit(dep[tmp])) {
@@ -83,12 +74,10 @@ void MatchSolve::singleMatchInit(int round, Student(&stu)[305], Department(&dep)
 		if (prework.is_time_match(stu[i].time_slot, dep[tmp].time_solt) == false) {
 			stu[i].round_dep = INF;
 			continue;
-		}/**///de(stu[i].dept_size);
-		//de(i);
+		}
 		stu[i].can_match = 0;
 		stu[i].round_dep = tmp;
 		for (int j = round - 1;j < stu[i].dept_size;++j) {
-			//if (stu[i].is_accepted[j]) continue;
 			int now = stu[i].department_id[j];
 			if (!dep[now].getNumLimit(dep[now]) || now == tmp) continue;
 			if (prework.is_time_match(stu[i].time_slot, dep[now].time_solt)) {
@@ -116,35 +105,25 @@ void MatchSolve::singleMatchSolve(int round, Student(&stu)[305], Department(&dep
 
 	//重新生成每个学生的权值
 	generateValue(round, stu, dep);
-	//de("uu");
+	
 	//同组间按权值排序 排序完可能存在问题!!
 	int last = 0, now = stu[0].round_dep;
 	stu[stu_size].round_dep = 2 * INF;
 	int tmp_now;
 	for (int i = 0;i <= stu_size;++i) {
-		/*if (stu[i].round_dep == INF) {
-			if (now != INF) {
-
-			}
-			break;
-		}*/
-		
+	
 		if (stu[i].round_dep != now) {
 			sort(stu + last, stu + i, cmpValue);
-
 			int lim = min(dep[now].getNumLimit(dep[now]), i - last);
 			tmp_now = stu[i].round_dep;
 			if (lim) {
-				//cout << "rr" << endl;
 				//同个部门的匹配
 				for (int j = 0;j < lim;++j) {
 					successMatchOperator(round, last + j, now, stu, dep);
 				}
 			}
-
 			now = tmp_now;
 			last = i;
-
 		}
 
 		if (stu[i].round_dep == INF) {
@@ -154,15 +133,3 @@ void MatchSolve::singleMatchSolve(int round, Student(&stu)[305], Department(&dep
 
 }
 
-
-
-
-
-/*
-bool checkIsAdmitted(int stu_id, int dep_id) {
-for (int i = 0;i < stu[stu_id].admitted_size;++i) {
-if (stu[stu_id].accepted_dep[i] == dep[dep_id].no) return true;
-}
-return false;
-}
-*/

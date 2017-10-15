@@ -1,7 +1,7 @@
 #include"Department.h"
 #include<iostream>
 using namespace std;
-void Department::getTimesolt(Department department) {
+void Department::getTimesolt(Department &department) {
 	prework.init();
 	department.time_solt=prework.deal_tmie(department.sche_size, department.event_schedules);
 }
