@@ -13,5 +13,4 @@ sudoku/Release
 # Match
 Match/Debug
 Match/Release
-Match/BIN/output_data.txt
 Match/Match/*.txt
