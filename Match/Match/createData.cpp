@@ -1,153 +1,117 @@
 #include "createData.h"
-#include "json.h"
-#include "Constant.h"
-#include <stdlib.h>
-#include <time.h>
-#include <string>
-#include<iostream>
-#include <cstring>
 using namespace std;
 using namespace Json;
+#define de(x) cout<<#x<<" = "<<x<<endl;
 
+int createData::randNum(int x,int y) {
+	int t = y;
+	y = x;
+	x = t - x + 1;
+	return rand() % x + y;
+}
+string createData::randDno(int x) {
+	string ans = "D0";
+	ans += x / 10 + '0';
+	ans += x % 10 + '0';
+	return ans;
+}
+string createData::randSno(int x) {
+	string ans = "031502";
+	ans += x / 100 + '0';
+	ans += (x / 10) % 10 + '0';
+	ans += x % 10 + '0';
+	return ans;
+}
+void createData::randFreeTime(Value &v,int x, int y) {
+	int flag[8][8];
+	int event_size = randNum(x, y);
+	memset(flag, 0, sizeof flag);
+	string free_time = "";
+	int redone = 15;
+	for (int j = 0;j < event_size;++j) {
+		free_time = "";
+		int week_day = randNum(0, 6);
+		free_time += week[week_day] + ".";
+		int time_no = randNum(0, 5);
+		if (flag[week_day][time_no]) {
+			if ((--redone) >= 0) ++event_size;
+			continue;
+		}
+		free_time += freetime[time_no];
+		flag[week_day][time_no] = 1;
+		v.append(free_time);
+	}
+	
+}
+void createData::randStuDno(Value &v) {
+	int flag[25];
+	int redone = 5;
+	memset(flag, 0, sizeof flag);
+	int dep_size = randNum(0, 5);
+	for (int i = 0;i < dep_size;++i) {
+		
+		int no = randNum(0, 19);
+		if (flag[no]) {
+			if ((--redone) >= 0) ++dep_size;
+			continue;
+		}
+		flag[no] = 1;
+		v.append(randDno(no));
+	}
+}
+void createData::randTag(Value &v, int y, int op) {
+	int flag[3][10];
+	int tag_size = randNum(2, y);
+	int type = randNum(0, 2), redone=5;
+	memset(flag, 0, sizeof flag);
+	for (int i = 0;i < tag_size;++i) {
+		if (op) {
+			type = randNum(0, 2);
+		}
+		int no = randNum(0, 7);
+		if (flag[type][no]) {
+			if ((--redone) >= 0) ++tag_size;
+			continue;
+		}
+		flag[type][no] = 1;
+		v.append(tag[type][no]);
+	}
+
+}
 
 void createData::print() {
-	
-	
-	
 	srand((unsigned)time(NULL));
-	int vis[3][9];
-	Value root;
-	Value stu;
-	Value dept;
-	string dno = "D0";
-	string sno = "031502";
-	int flag[8][8], f[25], ff[3][9];
+	Value root, stu, dept;
+	for (int i = 0;i < 300;i++) {
+		Value temp_stu;
+
+		randFreeTime(temp_stu[Sfree], 2, 10);
+
+		temp_stu[Sno] = randSno(i);
+
+		randStuDno(temp_stu[Sdept]);
+
+		randTag(temp_stu[Stag], 8, 1);
+
+		stu.append(temp_stu);
+	}
+
 	for (int i = 0;i < 20;++i) {
 		Value temp_dep;
-		string dno_tmp = dno;
-		dno_tmp += i / 10+'0';
-		dno_tmp += i % 10 + '0';
-		temp_dep[Dno] = dno_tmp;
 
-		int t = (rand() % 5)+10;
-		temp_dep[Dnum] = t;
-
-		int r = rand() % 6;
-		if (r < 2) r += 4;
-		memset(flag, 0, sizeof flag);
-		string free_time = "";
-		for (int j = 0;j < r;++j) {
-			free_time = "";
-			int t = rand() % 7;
-			free_time += week[t] + ".";
-			int tt = rand() % 6;
-			if (flag[t][tt]) {
-				tt = (2 * rand() + 5) % 6;
-			}
-			if (flag[t][tt]) continue;
-			free_time += freetime[tt];
-			flag[t][tt] = 1;
-			temp_dep[Dsche].append(free_time);
-		}
-
-
-		r = rand() % 6 + 1;
+		randFreeTime(temp_dep[Dsche], 2, 5);
 		
-		t = rand() % 3;
-		memset(f, 0, sizeof f);
-		string tagtmp = "";
-		if (r < 2) r += 4;
-		for (int i = 0;i < r;++i) {
-			tagtmp = "";
-			int tt = rand() % 8;
-			if (f[tt]) {
-				tt = (3 * rand() + 5) % 8;
-				if (f[tt]) continue;
-			}
-			
-			tagtmp += tag[t][tt];
-			temp_dep[Dtag].append(tagtmp);
-			vis[t][tt] = 1;
-			f[tt] = 1;
-		}
+		temp_dep[Dnum].append(randNum(10, 15));
+		
+		temp_dep[Dno] = randDno(i);
+		
+		randTag(temp_dep[Dtag], 5, 0);
+
 		dept.append(temp_dep);
 
 	}
 
-
-	
-	for (int i = 0;i < 300;i++) {
-		Value temp_stu;
-		string sno_tmp=sno;
-		sno_tmp += i / 100 + '0';
-		sno_tmp += (i / 10)%10 + '0';
-		sno_tmp += i %10 + '0';
-		
-		
-		temp_stu[Sno] = sno_tmp;
-		int r = (rand()+7) % 12;
-		if (r < 2) r += 8;
-		memset(flag, 0, sizeof flag);
-		string free_time = "";
-		for (int j = 0;j < r;++j) {
-			free_time = "";
-			int t = rand() % 7;
-			free_time += week[t]+".";
-			int tt = rand() % 6;
-			if (flag[t][tt]) {
-				tt = (2*rand()+5) % 6;
-			}
-			if (flag[t][tt]) continue;
-			free_time += freetime[tt];
-			flag[t][tt] = 1;
-			temp_stu[Sfree].append(free_time);
-		}
-
-		
-		r = rand() % 5;
-		if (r < 2) r += 3;
-		memset(f, 0, sizeof f);
-		for (int i = 0;i < r;++i) {
-			string dep = "D0";
-			int t = (2 * rand() + 7) % 20;
-			if (f[t]) {
-				t = (3 * rand() + 5) % 20;
-				if (f[t]) continue;
-			}
-			dep += t / 10 + '0';
-			dep += t % 10 + '0';
-			temp_stu[Sdept].append(dep);
-			f[t] = 1;
-		}
-
-		
-		
-		r = rand() % 6;
-		if (r < 2) r += 4;
-		memset(ff, 0, sizeof ff);
-		for (int i = 0;i < r;++i) {
-			int t = rand() % 3;
-			int tt = rand() % 8;
-			if (!vis[t][tt]) continue;
-			if (ff[t][tt]) {
-				int t = (2 * rand() + 7) % 20;
-				if (f[t]) {
-					t = (3 * rand() + 5) % 20;
-					if (f[t]) continue;
-				}
-			}
-			if (ff[t][tt]) continue;
-			ff[t][tt] = 1;
-			
-			
-			temp_stu[Stag].append(tag[t][tt]);
-		}
-		stu.append(temp_stu);
-	}
-
-
 	root[Stu] = stu;
 	root[Dept] = dept;
-
 	cout << root << endl;
 }

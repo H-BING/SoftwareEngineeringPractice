@@ -27,9 +27,9 @@ public:
 	}
 	
 	Timeslot time_slot;
-	void getTimeslot(Student stu);
+	void getTimeslot(Student &stu);
 	int getTagMatch(int m, string *dep);
-	void beAdmitted(int id,Timeslot dep);
+	void beAdmitted(int id,Timeslot &dep);
 	Prework prework;
 	
 
